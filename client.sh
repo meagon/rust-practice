@@ -1,0 +1,2 @@
+rustc --crate-type rlib client_down.rs -L /root/dev/lang/rust/chris-morgan/target/deps -L /root/dev/lang/rust/chris-morgan/target/native/ --extern url=/root/dev/lang/rust/chris-morgan/target/deps/liburl-921578b148f50e06.rlib --extern openssl=/root/dev/lang/rust/chris-morgan/target/deps/libopenssl-fbe75530f7eda428.rlib  --extern http=/root/dev/lang/rust/chris-morgan/target/libhttp-7ef257768eddfad7.rlib
+
