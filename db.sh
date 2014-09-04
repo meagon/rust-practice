@@ -1,8 +1,14 @@
-rustc  db.rs  --crate-type lib    --extern postgres=../../pg/rust-postgres/target/libpostgres-0089d21a7aa043fc.rlib -L ../../pg/rust-postgres/target/deps/ 
+
+
+PG_PATH=/root/dev/lang/rust/pg/rust-postgres/target/libpostgres-0089d21a7aa043fc.rlib
+PG_DEPS_PATH=/root/dev/lang/rust-postgres/target/deps/
+
+echo rustc  db.rs  --crate-type lib    --extern postgres=$PG_PATH -L $PG_DEPS_PATH
+ 
 
 rustc avl.rs  -L ../../pg/rust-postgres/target/deps/ \
      --extern xml=./libxml-cfc1aed2a0055651.rlib   \
-     --extern postgres=../../pg/rust-postgres/target/libpostgres-0089d21a7aa043fc.rlib \
+     --extern postgres=$PG_PATH \
      --extern db=./libdb.rlib -L ./ \
      --extern client_down=./libclient_down.rlib
  

@@ -1,0 +1,1789 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ROOT><SCAN version="2.1.10" time="2014-09-04 01:07:16 +0800" start_time="2014-09-04 01:04:54 +0800" end_time="2014-09-04 01:06:44 +0800">
+    <HASH>
+      <MD5>A830C01D0159AFAF31DE997EEEE3FB1C</MD5>
+      <CRC32>F39FE98F</CRC32>
+      <SHA1>7BBC0F1821F69CD4326C53CE158B8EB2CA22C6DB</SHA1>
+    </HASH>
+    <FILESIZE>548728</FILESIZE>
+    <AVPSTRUCT>
+      <ITEM>
+        <SUBPATH/>
+        <TYPE>detected</TYPE>
+        <NAME>not-a-virus:Downloader.Win32.LMN.aen</NAME>
+        <ACTION>skipped</ACTION>
+      </ITEM>
+    </AVPSTRUCT>
+    <SCANNER exploit="False" name="AVPScan" general_name="False" time="2014-09-04 01:05:10 +0800">
+      <VERSION>13.0.1.4190</VERSION>
+      <VIRUSDATE>2014-09-03 14:35</VIRUSDATE>
+      <TYPE>detected</TYPE>
+      <NAME>not-a-virus:Downloader.Win32.LMN.aen</NAME>
+      <INFECTED>False</INFECTED>
+    </SCANNER>
+    <BATCHID>20140904_010408_391588_Force</BATCHID>
+    <SEQUENCEID>7</SEQUENCEID>
+    <SCANNER exploit="False" name="MSEScan" general_name="False" time="2014-09-04 01:05:16 +0800">
+      <VERSION>1.10904</VERSION>
+      <VIRUSDATE>2014-09-03 11:38:59</VIRUSDATE>
+      <NAME>TrojanDownloader:Win32/Ogimant</NAME>
+    </SCANNER>
+    <SCANNER exploit="False" name="AVLScan" general_name="False" time="2014-09-04 01:05:06 +0800">
+      <VERSION>3.0.0.1</VERSION>
+      <VIRUSDATE>2014-09-03 21:38:41</VIRUSDATE>
+      <NAME>Not Found</NAME>
+      <INFECTED>False</INFECTED>
+    </SCANNER>
+    <SCANNER exploit="False" name="SOHScan" general_name="False" time="2014-09-04 01:06:44 +0800">
+      <VERSION>3.50.1</VERSION>
+      <VIRUSDATE>2014-09-03 13:35:52</VIRUSDATE>
+      <NAME>Mal/LdMon-B</NAME>
+    </SCANNER>
+    <SCANNER exploit="False" name="NAVScan" general_name="False" time="2014-09-04 01:05:08 +0800">
+      <VERSION>20141.1.0.330</VERSION>
+      <VIRUSDATE>2014-09-02 08:28:37</VIRUSDATE>
+      <NAME>Not Found</NAME>
+    </SCANNER>
+    <SCANNER exploit="False" name="NODScan" general_name="False" time="2014-09-04 01:05:10 +0800">
+      <VERSION>4.0.417.0</VERSION>
+      <VIRUSDATE>2014-09-03</VIRUSDATE>
+      <NAME>Win32/AdWare.LoadMoney.SA</NAME>
+    </SCANNER>
+    <SCANNER exploit="False" name="KAVScan" general_name="False" time="2014-09-04 01:05:06 +0800">
+      <VERSION>2009.2.5.15</VERSION>
+      <VIRUSDATE>2014-09-03</VIRUSDATE>
+      <NAME>Not Found</NAME>
+    </SCANNER>
+  </SCAN>
+<SCANCP version="2.2.1" time="2014-09-04 01:07:21 +0800">
+    <MD5>A830C01D0159AFAF31DE997EEEE3FB1C</MD5>
+    <CRC32>F39FE98F</CRC32>
+    <PACKINFO ispack="False"/>
+    <ARCHIVEINFO isarchive="False"/>
+    <ISEXEEMBEDDED>False</ISEXEEMBEDDED>
+    <CHILDISVIRUS>False</CHILDISVIRUS>
+    <ISEXPLOIT>False</ISEXPLOIT>
+    <INFECTEDJUDGEMENT>False</INFECTEDJUDGEMENT>
+    <NUMBEROFENGINES total="6" malcount="4"/>
+    <VIRUSNAME isvirus="True" avl_generic="False">RiskWare[Downloader]/Win32.LMN.aen</VIRUSNAME>
+    <VXVIRUSINFO splitflag="True">
+      <AVLVIRUSTYPE>RiskWare</AVLVIRUSTYPE>
+      <AVPVIRUSTYPE>Downloader</AVPVIRUSTYPE>
+      <VIRUSPLATFORM>Win32</VIRUSPLATFORM>
+      <VIRUSFAMILY>LMN</VIRUSFAMILY>
+      <VIRUSACTION>Downloader</VIRUSACTION>
+      <OTHERACTION/>
+      <SECONDFAMILY/>
+      <THIRDFAMILY/>
+      <ADDITIONCOMMENT>not-a-virus</ADDITIONCOMMENT>
+      <VIRUSVERSION/>
+      <VIRUSLENGTH/>
+      <SERIALNUMBER>aen</SERIALNUMBER>
+      <SERIALNUMBERTODIGIT>820</SERIALNUMBERTODIGIT>
+      <SUBSERIALNUMBER/>
+      <SUBSERIALNUMBERTODIGIT/>
+      <VIRUSYEAR/>
+      <VIRUSMONTH/>
+      <VIRUSDAY/>
+      <SCENE/>
+      <ISBROKEN>False</ISBROKEN>
+      <ISDEMO>False</ISDEMO>
+      <ISBOTNET>False</ISBOTNET>
+      <ISBADJOKE>False</ISBADJOKE>
+      <JUDGEMARK/>
+      <COMPILER/>
+      <SPREADMODE/>
+      <DEVELOPTYPE/>
+      <PLUGIN/>
+      <PLUGINVALUE/>
+      <ISUNKNOWNDETECTION>False</ISUNKNOWNDETECTION>
+      <ENGINE/>
+    </VXVIRUSINFO>
+  </SCANCP>
+<FINALCP time="2014-09-04 01:07:21 +0800" version="2.1.11">
+    <ARCHIVEINFO isarchive="False"/>
+    <ISEXEEMBEDDED>False</ISEXEEMBEDDED>
+    <ARCHIVEBOM>False</ARCHIVEBOM>
+    <SELFEXTRACTARCHIVE flag="False"/>
+    <VIRUSNAME isvirus="True" from="SCAN">RiskWare[Downloader]/Win32.LMN.aen</VIRUSNAME>
+    <FINALRESULT>black</FINALRESULT>
+    <CHILDISVIRUS>False</CHILDISVIRUS>
+    <FORMATNAME flag="True">BinExecute/Microsoft.EXE[:X86]</FORMATNAME>
+    <PESPLITPE>False</PESPLITPE>
+    <PACKINFO ispack="False"/>
+    <VXVIRUSINFO>
+      <AVLVIRUSTYPE>RiskWare</AVLVIRUSTYPE>
+      <AVPVIRUSTYPE>Downloader</AVPVIRUSTYPE>
+      <VIRUSPLATFORM>Win32</VIRUSPLATFORM>
+      <VIRUSFAMILY>LMN</VIRUSFAMILY>
+      <VIRUSACTION>Downloader</VIRUSACTION>
+      <OTHERACTION/>
+      <SECONDFAMILY/>
+      <THIRDFAMILY/>
+      <ADDITIONCOMMENT>not-a-virus</ADDITIONCOMMENT>
+      <VIRUSVERSION/>
+      <VIRUSLENGTH/>
+      <SERIALNUMBER>aen</SERIALNUMBER>
+      <SERIALNUMBERTODIGIT>820</SERIALNUMBERTODIGIT>
+      <SUBSERIALNUMBER/>
+      <SUBSERIALNUMBERTODIGIT/>
+      <VIRUSYEAR/>
+      <VIRUSMONTH/>
+      <VIRUSDAY/>
+      <SCENE/>
+      <ISBROKEN>False</ISBROKEN>
+      <ISDEMO>False</ISDEMO>
+      <ISBOTNET>False</ISBOTNET>
+      <ISBADJOKE>False</ISBADJOKE>
+      <JUDGEMARK/>
+      <COMPILER/>
+      <SPREADMODE/>
+      <DEVELOPTYPE/>
+      <PLUGIN/>
+      <PLUGINVALUE/>
+      <ISUNKNOWNDETECTION>False</ISUNKNOWNDETECTION>
+      <ENGINE/>
+    </VXVIRUSINFO>
+    <CHECKWHITELIST>
+      <FULLFILESIGN match="False"/>
+      <PARTFILESIGN match="False"/>
+    </CHECKWHITELIST>
+    <CHECKSTRATEGY>
+      <NOFMTEXPLOIT>False</NOFMTEXPLOIT>
+      <PROCDETECT>False</PROCDETECT>
+      <PROCFINDPACK>False</PROCFINDPACK>
+      <SCANFINDPACK>False</SCANFINDPACK>
+      <PROCFINDSFX>False</PROCFINDSFX>
+      <SCANFINDSFX>False</SCANFINDSFX>
+    </CHECKSTRATEGY>
+  </FINALCP>
+<PROCCP time="2014-09-04 01:07:21 +0800" version="2.1.6">
+    <CRC32>F39FE98F</CRC32>
+    <MD5>A830C01D0159AFAF31DE997EEEE3FB1C</MD5>
+    <MALWARECHECK>False</MALWARECHECK>
+    <SUSPECTSCORE grey_degree="dark-grey">45</SUSPECTSCORE>
+    <VIRUSNAME/>
+    <FORMATNAME flag="True">BinExecute/Microsoft.EXE[:X86]</FORMATNAME>
+    <TRANSFORMKAVNAME flag="True">Win32</TRANSFORMKAVNAME>
+    <SELFEXTRACTARCHIVE flag="False"/>
+    <SHELLINFO flag="False"/>
+    <ARCHIVEBOM>False</ARCHIVEBOM>
+    <CHECKWHITELIST>
+      <CWTCRC64FULLFILE flag="True" match="False"/>
+      <CWTCRC64EPSIG flag="True" match="False"/>
+      <CWMD4FULLFILE flag="True" match="False"/>
+      <CWMD4FIRSTCALLSIG flag="True" match="False"/>
+      <CWMD4FIRST4K flag="True" match="False"/>
+      <CWMD4FILEHEADSIG flag="True" match="False"/>
+      <CWMD4EPSIG flag="True" match="False"/>
+      <CWMD4EPSECTIONSIG flag="True" match="False"/>
+    </CHECKWHITELIST>
+    <VXVIRUSINFO>
+      <VIRUSTYPE/>
+      <VIRUSPLATFORM/>
+      <VIRUSFAMILY/>
+      <VIRUSACTION/>
+      <OTHERACTION/>
+      <SECONDFAMILY/>
+      <THIRDFAMILY/>
+      <ADDITIONCOMMENT/>
+      <VIRUSVERSION/>
+      <VIRUSLENGTH/>
+      <SERIALNUMBER/>
+      <SERIALNUMBERTODIGIT/>
+      <SUBSERIALNUMBER/>
+      <SUBSERIALNUMBERTODIGIT/>
+      <SCENE/>
+      <ISBROKEN>False</ISBROKEN>
+      <ISDEMO/>
+      <ISBOTNET/>
+      <ISBADJOKE/>
+      <JUDGEMARK/>
+      <COMPILER/>
+      <SPREADMODE/>
+      <DEVELOPTYPE/>
+      <PLUGIN/>
+      <PLUGINVALUE/>
+      <ISUNKNOWNDETECTION/>
+    </VXVIRUSINFO>
+  </PROCCP>
+<PROC time="2014-09-04 01:04:31 +0800" version="2.1.16" derivativefile="False" start_time="2014-09-04 01:04:31 +0800" end_time="2014-09-04 01:04:42 +0800">
+    <FILESTART len="0x200">4D5A50000200000004000F00FFFF0000B80000000000000040001A00000000000000000000000000000000000000000000000000000000000000000000010000BA10000E1FB409CD21B8014CCD219090546869732070726F6772616D206D7573742062652072756E20756E6465722057696E33320D0A243700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000504500004C010600195E422A0000000000000000E00082810B010219008A070000C0000000000000801000000010000000A00700000040000010000000020000040000000000000005000000000000000010090000040000785A090002000000000010000040000000001000001000000000000010000000000000000000000000F007008A25000000400800A6C000000000000000000000004E08007811000000200800901400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000434F444500000000</FILESTART>
+    <FILESTART len="0x2">4D5A</FILESTART>
+    <FILESTART len="0x3">4D5A50</FILESTART>
+    <FILESTART len="0x4">4D5A5000</FILESTART>
+    <HASH>
+      <MD5>A830C01D0159AFAF31DE997EEEE3FB1C</MD5>
+      <CRC32>F39FE98F</CRC32>
+      <SHA1>7BBC0F1821F69CD4326C53CE158B8EB2CA22C6DB</SHA1>
+      <SHA256>A494EEDED7C7227C95CF5941B36E22C9CFBE93A68D4EAF6307A284DD9B198B8E</SHA256>
+      <SSDEEP>6144:quV2j/A1AZRV0tPpAytWLfD+lTdu6LbIwF5buMVj1XVHw24kEyP7MIe++rnqp84u:ufbm+jfylTMwd5yWVHrAVnq24+REs</SSDEEP>
+    </HASH>
+    <FILESIZE>0x85F78</FILESIZE>
+    <FILEFORMAT>
+      <FORMATNAME flag="True">BinExecute/Microsoft.EXE[:X86]</FORMATNAME>
+      <TRANSFORMKAVNAME flag="True">Win32</TRANSFORMKAVNAME>
+      <PACKBOM>False</PACKBOM>
+      <SELFEXTRACTARCHIVE flag="False"/>
+    </FILEFORMAT>
+    <COMPILERINFO flag="False"/>
+    <SHELLINFO flag="False"/>
+    <SIGNATURE>
+      <TCRC64FIRST4K flag="True" len="0x1000">354A7A83D97521BF</TCRC64FIRST4K>
+      <MD5FIRST4K flag="True" len="0x1000">354A7A83D97521BFC4C9F866BDEA8A7E</MD5FIRST4K>
+      <MD4FIRST4K flag="True" len="0x1000">D7150F4B3F0BAE5C75ED2AC9C1726263</MD4FIRST4K>
+      <MD5HALFFILEHEADSIG flag="True" len="0x4000">B0D7F8CBE048D6AA</MD5HALFFILEHEADSIG>
+      <MD5FILEHEADSIG flag="True" len="0x4000">B0D7F8CBE048D6AA9625B060443E642E</MD5FILEHEADSIG>
+      <MD4FILEHEADSIG flag="True" len="0x4000">9D1C0B2CFD526F7AB615DF47D89C320F</MD4FILEHEADSIG>
+      <MD5FULLFILE flag="True" len="0x85f78">A830C01D0159AFAF31DE997EEEE3FB1C</MD5FULLFILE>
+      <MD4FULLFILE flag="True" len="0x85f78">EAF60C1A1CFED0EBDF41B6A30B569B58</MD4FULLFILE>
+      <TCRC64FULLFILE flag="True" len="0x85f78">748E7BB9F257A6C6</TCRC64FULLFILE>
+      <TCRC64EPSIG flag="True" len="0x1000">EA6FDA81E4BCEB00</TCRC64EPSIG>
+      <CRC64EPSIG flag="True" len="0x1000">EA6FDA81E4BCEB00</CRC64EPSIG>
+      <AVL2MD5EPSIG flag="True" len="0x1000">FA2B6F97C6577A91175CDA63369AEE35</AVL2MD5EPSIG>
+      <MD5EPSIG flag="True" len="0x1000">FA2B6F97C6577A91175CDA63369AEE35</MD5EPSIG>
+      <MD4EPSIG flag="True" len="0x1000">3289FFDE945FF31D2B6058CC329FE062</MD4EPSIG>
+      <TCRC64EPSECTIONSIG flag="True" len="0x1000">75002DD49C567FD4</TCRC64EPSECTIONSIG>
+      <MD5EPSECTIONSIG flag="True" len="0x1000">AD155C5DA35A167CD27AAB54A804BAFA</MD5EPSECTIONSIG>
+      <MD4EPSECTIONSIG flag="True" len="0x1000">0F7F0F55F7BC8D89A2E631A718FFB52D</MD4EPSECTIONSIG>
+      <MD5FIRSTCALLSIG flag="True" len="0x1000">CFF74234BBD20A75815345A5E824F7D1</MD5FIRSTCALLSIG>
+      <MD4FIRSTCALLSIG flag="True" len="0x1000">DFF89B0CD28A7F1560D4D66CC5AB9BB6</MD4FIRSTCALLSIG>
+      <CHECKWHITELIST>
+        <CWTCRC64FULLFILE flag="True" match="False"/>
+        <CWTCRC64EPSIG flag="True" match="False"/>
+        <CWMD4FULLFILE flag="True" match="False"/>
+        <CWMD4FIRSTCALLSIG flag="True" match="False"/>
+        <CWMD4FIRST4K flag="True" match="False"/>
+        <CWMD4FILEHEADSIG flag="True" match="False"/>
+        <CWMD4EPSIG flag="True" match="False"/>
+        <CWMD4EPSECTIONSIG flag="True" match="False"/>
+      </CHECKWHITELIST>
+      <SEGMENTSIG flag="True">041040000307426f6f6c65616e010000000001000000001040000546616c736551c38bc0558bec83c4e4c645ff000105a8a04700895424f0293d54a0470066c7</SEGMENTSIG>
+      <SEGMENTSIG flag="True">05f8a04700bb5aff0d8ea04700a16cd047008b1520e047008b04903b45087304c645ff01894424ee230d71a047008905c3a047008a45ff8be55dc204008d4000</SEGMENTSIG>
+      <SEGMENTSIG flag="True">833d2ca04700017539890548a04700803deba04700007418891535a04700c705c4a047008d020100893d12a04700eb0c8905c8a0470001151ca04700210574a0</SEGMENTSIG>
+      <SEGMENTSIG flag="True">4700e911810700c3ff2524a04700b800104000c3ff2510f547008bc0558bec83c4988945fc291da3a047003b7c24e07d118d3535a04700832602871d28a04700</SEGMENTSIG>
+      <SEGMENTSIG flag="True">eb0ac70512a047001c5501008d3dcba04700c70713000000891df9a0470089356ea0470031c08b75fc31c9836dfc1e034dfc890514a04700894dfc0105a8a047</SEGMENTSIG>
+      <SEGMENTSIG flag="True">00895424f0293d54a0470066c705f8a04700bb5aff0d8ea047008b4dfc8b19291d1ca04700895dfc894424ee230d71a047008905c3a047008b5dfc8b3b890524</SEGMENTSIG>
+      <SEGMENTSIG flag="True">a0470029c30fb607891d18a04700a388cf4700832d88cf470030011511a04700893d47a047003b4c24f874198905afa04700891561a047008935e7a04700c605</SEGMENTSIG>
+      <SEGMENTSIG flag="True">baa0470087897c24dc890d95a04700893d4ea047002b153da04700812d88cf4700880000008be55dc38d4000ff250cf547008bc0890548a04700803deba04700</SEGMENTSIG>
+      <SEGMENTSIG flag="True">007418891535a04700c705c4a047008d020100893d12a04700eb0c8905c8a0470001151ca04700210574a04700e8a641070083f9ff7d0966c70520a04700059e</SEGMENTSIG>
+      <SEGMENTSIG flag="True">c70511a04700cf0c0100c70541a047005b010100c605ada04700b3890553a0470089df875c24d8890de9a04700893536a047008b157ea047008905cfa0470089</SEGMENTSIG>
+      <SEGMENTSIG flag="True">4e0029e967ba7a001a2f863ea92b12dcd2000000c02b33f40d000000666208008c05fe00000027d44e1c000000449400e9a4000000cd3dba001f97e500000022</SEGMENTSIG>
+      <SEGMENTSIG flag="True">c705b5a04700012c833d7ea04700007f2a010ddda04700891d9ca04700890de8a04700893dffa0470081e3d100000089151ea04700894424dceb10c705c1a047</SEGMENTSIG>
+      <SEGMENTSIG flag="True">0000393554a047007d1d4ac705c7a04700a57b01008935bca04700c705a3a047006d4b0100eb0c890592a047008915b4a04700c70578a04700da480100890d9a</SEGMENTSIG>
+      <AVPAUTOSIG flag="False"/>
+      <EPFIXSIG>A04700E911810700C3FF2524A04700B800104000C3FF2510F547008BC0558BEC83C4988945FC291DA3A047003B7C24E07D118D3535A04700832602871D28A04700EB0AC70512A047001C5501008D3DCBA04700C70713000000891DF9A0470089356EA0470031C08B75FC31C9836DFC1E034DFC890514A04700894DFC0105A8A04700895424F0293D54A0470066C705F8A04700BB5AFF0D8EA047008B4DFC8B19291D1CA04700895DFC894424EE230D71A047008905C3A047008B5DFC8B3B890524A0470029C30FB607891D18A04700A388CF4700832D88CF470030011511A04700893D47A047003B4C24F874198905AFA04700891561A047008935E7A04700C6</EPFIXSIG>
+      <OPCODEEPSIG flag="True" len="0x28" buffer="833D2CA04700017539890548A04700803DEBA04700007418891535A04700C705C4A047008D020100893D12A04700EB0C8905C8A0470001151CA04700210574A04700E911810700C3FF2524A04700B800104000C3FF2510F547008BC0558BEC83C4988945FC291DA3A047003B7C24E07D118D3535A04700832602871D28A04700EB0AC70512A047001C5501008D3DCBA04700C70713000000891DF9A0470089356EA0470031C08B75FC31C9836DFC1E034DFC" opcode="11202311202323234A23040A4A3B4A233B4A23052304230D1120240A224A23242323230F230F0D04">EADDD9007218F0FE</OPCODEEPSIG>
+      <OPCODEEPSIG flag="True" len="0x50" buffer="833D2CA04700017539890548A04700803DEBA04700007418891535A04700C705C4A047008D020100893D12A04700EB0C8905C8A0470001151CA04700210574A04700E911810700C3FF2524A04700B800104000C3FF2510F547008BC0558BEC83C4988945FC291DA3A047003B7C24E07D118D3535A04700832602871D28A04700EB0AC70512A047001C5501008D3DCBA04700C70713000000891DF9A0470089356EA0470031C08B75FC31C9836DFC1E034DFC890514A04700894DFC0105A8A04700895424F0293D54A0470066C705F8A04700BB5AFF0D8EA047008B4DFC8B19291D1CA04700895DFC894424EE230D71A047008905C3A047008B5DFC8B3B890524A0470029C30FB607891D18A04700A388CF4700832D88CF470030011511A04700893D47A047003B4C24F874198905AFA04700891561A047008935E7A04700C605BAA0470087897C24DC890D95A04700893D4EA047002B153DA04700812D88CF4700880000008BE55DC38D4000FF250CF54700" opcode="11202311202323234A23040A4A3B4A233B4A23052304230D1120240A224A23242323230F230F0D04232304230D231423230D23230A232323230D6223230D04231120232323232323230D0D23063B244A">88D98469914A4FB2</OPCODEEPSIG>
+      <OPCODEEATSIG flag="False" len="0x28"/>
+      <OPCODEEATSIG flag="False" len="0x50"/>
+      <OPCODESECTIONSIG flag="True" len="0x28" buffer="041040000307426F6F6C65616E010000000001000000001040000546616C736551C38BC0558BEC83C4E4C645FF000105A8A04700895424F0293D54A0470066C705F8A04700BB5AFF0D8EA04700A16CD047008B1520E047008B04903B45087304C645FF01894424EE230D71A047008905C3A04700" opcode="04130406131E1E1A0B161D040404040408040B053B230523042304230D2314232323112023230A23">EA8BC8B0C7B07129</OPCODESECTIONSIG>
+      <OPCODESECTIONSIG flag="True" len="0x50" buffer="041040000307426F6F6C65616E010000000001000000001040000546616C736551C38BC0558BEC83C4E4C645FF000105A8A04700895424F0293D54A0470066C705F8A04700BB5AFF0D8EA04700A16CD047008B1520E047008B04903B45087304C645FF01894424EE230D71A047008905C3A047008A45FF8BE55DC204008D4000833D2CA04700017539890548A04700803DEBA04700007418891535A04700C705C4A047008D020100893D12A04700EB0C8905C8A0470001151CA04700210574A04700E911810700C3FF2524A04700B800104000C3FF2510F547008BC0558BEC83C4988945FC291DA3A047003B7C24E07D118D3535A04700832602871D28A04700EB0AC70512A047001C5501008D3DCBA04700C70713000000891DF9A0470089356EA04700" opcode="04130406131E1E1A0B161D040404040408040B053B230523042304230D2314232323112023230A23232306352411202311202323234A23040A4A3B4A233B4A23052304230D1120240A224A2324232323">CF76C821DA5C729B</OPCODESECTIONSIG>
+      <OPCODEFIRSTCALLSIG flag="True" len="0x28" buffer="210574A04700E911810700C3FF2524A04700B800104000C3FF2510F547008BC0558BEC83C4988945FC291DA3A047003B7C24E07D118D3535A04700832602871D28A04700EB0AC70512A047001C5501008D3DCBA04700C70713000000891DF9A0470089356EA0470031C08B75FC31C9836DFC1E034DFC890514A04700894DFC0105A8A04700895424F0293D54A0470066C705F8A04700BB5AFF0D8EA047008B4DFC8B19291D1CA04700895DFC" opcode="0A4A3B4A233B4A23052304230D1120240A224A23242323230F230F0D04232304230D231423230D23">105598E872C22169</OPCODEFIRSTCALLSIG>
+      <OPCODEFIRSTCALLSIG flag="True" len="0x50" buffer="210574A04700E911810700C3FF2524A04700B800104000C3FF2510F547008BC0558BEC83C4988945FC291DA3A047003B7C24E07D118D3535A04700832602871D28A04700EB0AC70512A047001C5501008D3DCBA04700C70713000000891DF9A0470089356EA0470031C08B75FC31C9836DFC1E034DFC890514A04700894DFC0105A8A04700895424F0293D54A0470066C705F8A04700BB5AFF0D8EA047008B4DFC8B19291D1CA04700895DFC894424EE230D71A047008905C3A047008B5DFC8B3B890524A0470029C30FB607891D18A04700A388CF4700832D88CF470030011511A04700893D47A047003B4C24F874198905AFA04700891561A047008935E7A04700C605BAA0470087897C24DC890D95A04700893D4EA047002B153DA04700812D88CF4700880000008BE55DC38D4000FF250CF547008BC0890548A04700803DEBA04700007418891535A04700C705C4A047008D020100893D12A04700EB0C8905C8A0470001151CA04700210574A04700" opcode="0A4A3B4A233B4A23052304230D1120240A224A23242323230F230F0D04232304230D231423230D23230A232323230D6223230D04231120232323232323230D0D23063B244A232311202323234A23040A">2D9FC86B6AEDD14D</OPCODEFIRSTCALLSIG>
+      <SHORTSIG flag="False"/>
+      <IATSIGN flag="True" apinum="15">456B7B05E6AF3F3905E9A98907DCC50C</IATSIGN>
+      <IATXRES>
+        <IATXRE refcount="8">ImpersonateNamedPipeClient</IATXRE>
+        <IATXRE refcount="0">RegisterClassA</IATXRE>
+        <IATXRE refcount="0">OemKeyScan</IATXRE>
+        <IATXRE refcount="0">DestroyCaret</IATXRE>
+        <IATXRE refcount="0">MenuWindowProcW</IATXRE>
+        <IATXRE refcount="0">GetWindowTextW</IATXRE>
+        <IATXRE refcount="0">GetIconInfo</IATXRE>
+        <IATXRE refcount="0">ActivateKeyboardLayout</IATXRE>
+        <IATXRE refcount="0">GetUpdateRgn</IATXRE>
+        <IATXRE refcount="0">CloseDesktop</IATXRE>
+        <IATXRE refcount="0">RegisterClassExW</IATXRE>
+        <IATXRE refcount="0">BringWindowToTop</IATXRE>
+        <IATXRE refcount="0">GetClipboardFormatNameW</IATXRE>
+        <IATXRE refcount="0">MessageBoxExA</IATXRE>
+        <IATXRE refcount="0">SetActiveWindow</IATXRE>
+        <IATXRE refcount="0">DialogBoxIndirectParamA</IATXRE>
+        <IATXRE refcount="0">CallWindowProcA</IATXRE>
+        <IATXRE refcount="0">IsCharAlphaW</IATXRE>
+        <IATXRE refcount="0">RegisterWindowMessageA</IATXRE>
+        <IATXRE refcount="0">EndMenu</IATXRE>
+        <IATXRE refcount="0">BroadcastSystemMessageExA</IATXRE>
+        <IATXRE refcount="0">GetPropA</IATXRE>
+        <IATXRE refcount="0">OpenDesktopA</IATXRE>
+        <IATXRE refcount="0">CharLowerBuffA</IATXRE>
+        <IATXRE refcount="0">CallWindowProcW</IATXRE>
+        <IATXRE refcount="0">SetCapture</IATXRE>
+        <IATXRE refcount="0">RegisterClipboardFormatW</IATXRE>
+        <IATXRE refcount="0">GetKeyboardLayout</IATXRE>
+        <IATXRE refcount="0">ChangeDisplaySettingsW</IATXRE>
+        <IATXRE refcount="0">RegisterClassExA</IATXRE>
+        <IATXRE refcount="0">GetWindowRect</IATXRE>
+        <IATXRE refcount="0">DrawIcon</IATXRE>
+        <IATXRE refcount="0">CascadeWindows</IATXRE>
+        <IATXRE refcount="0">CheckMenuRadioItem</IATXRE>
+        <IATXRE refcount="0">TileChildWindows</IATXRE>
+        <IATXRE refcount="0">DefFrameProcW</IATXRE>
+        <IATXRE refcount="0">GetCaretPos</IATXRE>
+        <IATXRE refcount="0">IsCharAlphaNumericW</IATXRE>
+        <IATXRE refcount="0">SetWindowsHookExA</IATXRE>
+        <IATXRE refcount="0">OpenDesktopW</IATXRE>
+        <IATXRE refcount="0">EnumPropsExW</IATXRE>
+        <IATXRE refcount="0">GetWindowLongW</IATXRE>
+        <IATXRE refcount="0">DefDlgProcW</IATXRE>
+        <IATXRE refcount="0">WinHelpW</IATXRE>
+        <IATXRE refcount="0">SetWindowContextHelpId</IATXRE>
+        <IATXRE refcount="0">EnableWindow</IATXRE>
+        <IATXRE refcount="0">SetSystemCursor</IATXRE>
+        <IATXRE refcount="0">UnlockWindowStation</IATXRE>
+        <IATXRE refcount="0">LoadCursorA</IATXRE>
+        <IATXRE refcount="0">SetForegroundWindow</IATXRE>
+        <IATXRE refcount="0">GetMessagePos</IATXRE>
+        <IATXRE refcount="0">FindWindowW</IATXRE>
+        <IATXRE refcount="0">FrameRect</IATXRE>
+        <IATXRE refcount="0">DrawFrameControl</IATXRE>
+        <IATXRE refcount="0">GetMenuStringA</IATXRE>
+        <IATXRE refcount="0">DlgDirListA</IATXRE>
+        <IATXRE refcount="0">GetUserObjectInformationA</IATXRE>
+        <IATXRE refcount="0">GetInputState</IATXRE>
+        <IATXRE refcount="0">SendMessageCallbackA</IATXRE>
+        <IATXRE refcount="0">GetClassInfoW</IATXRE>
+        <IATXRE refcount="0">LoadIconW</IATXRE>
+        <IATXRE refcount="0">FindWindowExW</IATXRE>
+        <IATXRE refcount="0">GetRawInputDeviceInfoA</IATXRE>
+        <IATXRE refcount="0">DialogBoxParamW</IATXRE>
+        <IATXRE refcount="0">LoadMenuIndirectA</IATXRE>
+        <IATXRE refcount="0">GetKeyboardState</IATXRE>
+        <IATXRE refcount="0">EmptyClipboard</IATXRE>
+        <IATXRE refcount="0">CopyAcceleratorTableW</IATXRE>
+        <IATXRE refcount="0">GetDCEx</IATXRE>
+        <IATXRE refcount="0">AnyPopup</IATXRE>
+        <IATXRE refcount="0">CreateMDIWindowW</IATXRE>
+        <IATXRE refcount="0">RealGetWindowClassA</IATXRE>
+        <IATXRE refcount="0">GetTopWindow</IATXRE>
+        <IATXRE refcount="0">SetDlgItemTextA</IATXRE>
+        <IATXRE refcount="0">GetMonitorInfoA</IATXRE>
+        <IATXRE refcount="0">WaitForInputIdle</IATXRE>
+        <IATXRE refcount="0">DestroyAcceleratorTable</IATXRE>
+        <IATXRE refcount="0">MessageBoxIndirectA</IATXRE>
+        <IATXRE refcount="0">GetProcessWindowStation</IATXRE>
+        <IATXRE refcount="0">OffsetRect</IATXRE>
+        <IATXRE refcount="0">PeekMessageA</IATXRE>
+        <IATXRE refcount="0">ModifyMenuW</IATXRE>
+        <IATXRE refcount="0">SetDlgItemTextW</IATXRE>
+        <IATXRE refcount="0">MapVirtualKeyExW</IATXRE>
+        <IATXRE refcount="0">GetMenuInfo</IATXRE>
+        <IATXRE refcount="0">SetWindowPlacement</IATXRE>
+        <IATXRE refcount="0">GetCapture</IATXRE>
+        <IATXRE refcount="0">PrintWindow</IATXRE>
+        <IATXRE refcount="0">CallMsgFilterW</IATXRE>
+        <IATXRE refcount="0">WindowFromDC</IATXRE>
+        <IATXRE refcount="0">GetLastInputInfo</IATXRE>
+        <IATXRE refcount="0">CloseWindow</IATXRE>
+        <IATXRE refcount="0">MessageBoxA</IATXRE>
+        <IATXRE refcount="0">DrawTextW</IATXRE>
+        <IATXRE refcount="0">TranslateAcceleratorW</IATXRE>
+        <IATXRE refcount="0">CheckMenuItem</IATXRE>
+        <IATXRE refcount="0">BlockInput</IATXRE>
+        <IATXRE refcount="0">LoadKeyboardLayoutW</IATXRE>
+        <IATXRE refcount="0">IsZoomed</IATXRE>
+        <IATXRE refcount="0">EnumThreadWindows</IATXRE>
+        <IATXRE refcount="0">GrayStringW</IATXRE>
+        <IATXRE refcount="0">CloseWindowStation</IATXRE>
+        <IATXRE refcount="0">BroadcastSystemMessageA</IATXRE>
+        <IATXRE refcount="0">IsWindowUnicode</IATXRE>
+        <IATXRE refcount="0">ChildWindowFromPointEx</IATXRE>
+        <IATXRE refcount="0">AlignRects</IATXRE>
+        <IATXRE refcount="0">IsCharLowerA</IATXRE>
+        <IATXRE refcount="0">GetCursorPos</IATXRE>
+        <IATXRE refcount="0">MoveFileExW</IATXRE>
+        <IATXRE refcount="0">VerifyVersionInfoA</IATXRE>
+        <IATXRE refcount="0">ConsoleMenuControl</IATXRE>
+        <IATXRE refcount="0">GetEnvironmentVariableW</IATXRE>
+        <IATXRE refcount="0">SetHandleInformation</IATXRE>
+        <IATXRE refcount="0">GetStartupInfoW</IATXRE>
+        <IATXRE refcount="0">TransmitCommChar</IATXRE>
+        <IATXRE refcount="0">GetThreadPriority</IATXRE>
+        <IATXRE refcount="0">CopyFileExA</IATXRE>
+        <IATXRE refcount="0">ReadConsoleOutputCharacterA</IATXRE>
+        <IATXRE refcount="0">GetOverlappedResult</IATXRE>
+        <IATXRE refcount="0">RegisterWowExec</IATXRE>
+        <IATXRE refcount="0">EnumCalendarInfoA</IATXRE>
+        <IATXRE refcount="0">StrChrNW</IATXRE>
+        <IATXRE refcount="0">SHRegOpenUSKeyA</IATXRE>
+        <IATXRE refcount="0">PathParseIconLocationW</IATXRE>
+        <IATXRE refcount="0">StrRStrIA</IATXRE>
+        <IATXRE refcount="0">StrFormatByteSize64A</IATXRE>
+        <IATXRE refcount="0">SHReleaseThreadRef</IATXRE>
+        <IATXRE refcount="0">SHEnumKeyExW</IATXRE>
+        <IATXRE refcount="0">HashData</IATXRE>
+        <IATXRE refcount="0">StrCatChainW</IATXRE>
+        <IATXRE refcount="0">PathIsURLW</IATXRE>
+        <IATXRE refcount="0">AssocQueryStringA</IATXRE>
+        <IATXRE refcount="0">AssocQueryStringByKeyW</IATXRE>
+        <IATXRE refcount="0">PathFindNextComponentA</IATXRE>
+        <IATXRE refcount="0">GetFileTitleW</IATXRE>
+        <IATXRE refcount="0">GetFileTitleA</IATXRE>
+        <IATXRE refcount="0">PrintDlgW</IATXRE>
+        <IATXRE refcount="0">WantArrows</IATXRE>
+        <IATXRE refcount="0">dwLBSubclass</IATXRE>
+        <IATXRE refcount="0">ChooseColorA</IATXRE>
+        <IATXRE refcount="0">GetSaveFileNameW</IATXRE>
+        <IATXRE refcount="0">WantArrows</IATXRE>
+        <IATXRE refcount="0">PrintDlgW</IATXRE>
+        <IATXRE refcount="0">PageSetupDlgA</IATXRE>
+        <IATXRE refcount="0">VarI4FromR4</IATXRE>
+        <IATXRE refcount="0">SafeArrayCreateEx</IATXRE>
+        <IATXRE refcount="0">VarI8FromBool</IATXRE>
+        <IATXRE refcount="0">VarI1FromR4</IATXRE>
+        <IATXRE refcount="0">VarDecFromUI8</IATXRE>
+        <IATXRE refcount="0">VarI2FromUI1</IATXRE>
+        <IATXRE refcount="0">VarI4FromR8</IATXRE>
+        <IATXRE refcount="0">VarUI4FromI2</IATXRE>
+        <IATXRE refcount="0">VarCyFromI4</IATXRE>
+        <IATXRE refcount="0">SafeArrayLock</IATXRE>
+        <IATXRE refcount="0">VarUI2FromUI8</IATXRE>
+        <IATXRE refcount="0">StrRStrIW</IATXRE>
+        <IATXRE refcount="0">ExtractIconExA</IATXRE>
+        <IATXRE refcount="0">SHEmptyRecycleBinW</IATXRE>
+        <IATXRE refcount="0">StrChrIA</IATXRE>
+        <IATXRE refcount="0">SHEnumerateUnreadMailAccountsW</IATXRE>
+        <IATXRE refcount="0">StrCmpNIA</IATXRE>
+        <IATXRE refcount="0">StrChrIW</IATXRE>
+        <IATXRE refcount="0">SHGetIconOverlayIndexW</IATXRE>
+        <IATXRE refcount="0">SHCreateDirectoryExA</IATXRE>
+        <IATXRE refcount="0">StrChrA</IATXRE>
+        <IATXRE refcount="0">StrCmpNW</IATXRE>
+        <IATXRE refcount="0">FindClosePrinterChangeNotification</IATXRE>
+        <IATXRE refcount="0">DeletePrinterDataExW</IATXRE>
+        <IATXRE refcount="0">EnumFormsW</IATXRE>
+        <IATXRE refcount="0">AddPrinterConnectionA</IATXRE>
+        <IATXRE refcount="0">GetPrinterDataExW</IATXRE>
+        <IATXRE refcount="0">GetDefaultPrinterW</IATXRE>
+        <IATXRE refcount="0">ScheduleJob</IATXRE>
+        <IATXRE refcount="0">ClosePrinter</IATXRE>
+        <IATXRE refcount="0">PerfClose</IATXRE>
+        <IATXRE refcount="0">DeleteMonitorW</IATXRE>
+        <IATXRE refcount="0">DeletePrinterDriverW</IATXRE>
+        <IATXRE refcount="0">SpoolerPrinterEvent</IATXRE>
+        <IATXRE refcount="0">AddPortA</IATXRE>
+        <IATXRE refcount="0">MakeDragList</IATXRE>
+        <IATXRE refcount="0">FlatSB_SetScrollProp</IATXRE>
+        <IATXRE refcount="0">FlatSB_SetScrollInfo</IATXRE>
+        <IATXRE refcount="0">ImageList_GetIcon</IATXRE>
+        <IATXRE refcount="0">ImageList_LoadImageA</IATXRE>
+        <IATXRE refcount="0">ImageList_SetBkColor</IATXRE>
+        <IATXRE refcount="0">ImageList_AddMasked</IATXRE>
+        <IATXRE refcount="0">FlatSB_SetScrollProp</IATXRE>
+        <IATXRE refcount="0">DrawInsert</IATXRE>
+        <IATXRE refcount="0">ImageList_Draw</IATXRE>
+        <IATXRE refcount="8">CreateNamedPipeW</IATXRE>
+        <IATXRE refcount="0">SetCalendarInfoA</IATXRE>
+        <IATXRE refcount="0">GetFileInformationByHandle</IATXRE>
+        <IATXRE refcount="0">AddConsoleAliasA</IATXRE>
+        <IATXRE refcount="0">GetConsoleDisplayMode</IATXRE>
+        <IATXRE refcount="0">CompareStringA</IATXRE>
+        <IATXRE refcount="0">SuspendThread</IATXRE>
+        <IATXRE refcount="0">HeapDestroy</IATXRE>
+        <IATXRE refcount="0">InterlockedDecrement</IATXRE>
+        <IATXRE refcount="0">CreateTapePartition</IATXRE>
+        <IATXRE refcount="0">VerifyVersionInfoW</IATXRE>
+        <IATXRE refcount="0">SetThreadPriorityBoost</IATXRE>
+        <IATXRE refcount="0">LZOpenFileW</IATXRE>
+        <IATXRE refcount="0">GetLocalTime</IATXRE>
+        <IATXRE refcount="0">EnumTimeFormatsW</IATXRE>
+        <IATXRE refcount="0">EnumCalendarInfoA</IATXRE>
+        <IATXRE refcount="0">ReadFileEx</IATXRE>
+        <IATXRE refcount="0">GetConsoleInputExeNameA</IATXRE>
+        <IATXRE refcount="10">GetStartupInfoW</IATXRE>
+        <IATXRE refcount="0">GetProcessTimes</IATXRE>
+        <IATXRE refcount="0">DelayLoadFailureHook</IATXRE>
+        <IATXRE refcount="0">MoveFileWithProgressA</IATXRE>
+        <IATXRE refcount="0">GetPrivateProfileSectionNamesA</IATXRE>
+        <IATXRE refcount="0">CreateJobSet</IATXRE>
+        <IATXRE refcount="0">BuildCommDCBAndTimeoutsW</IATXRE>
+        <IATXRE refcount="0">GetDevicePowerState</IATXRE>
+        <IATXRE refcount="0">LZCopy</IATXRE>
+        <IATXRE refcount="0">SetCurrentDirectoryW</IATXRE>
+        <IATXRE refcount="0">FindFirstFileW</IATXRE>
+        <IATXRE refcount="3">LoadLibraryW</IATXRE>
+        <IATXRE refcount="1">GetCurrentProcessId</IATXRE>
+        <IATXRE refcount="4">GetWindowTextLengthA</IATXRE>
+        <IATXRE refcount="8">BringWindowToTop</IATXRE>
+        <IATXRE refcount="11">SetWindowWord</IATXRE>
+        <IATXRE refcount="0">LoadMenuIndirectA</IATXRE>
+        <IATXRE refcount="0">CloseWindow</IATXRE>
+        <IATXRE refcount="0">GetSubMenu</IATXRE>
+        <IATXRE refcount="0">ReleaseCapture</IATXRE>
+        <IATXRE refcount="0">AttachThreadInput</IATXRE>
+        <IATXRE refcount="0">DefWindowProcW</IATXRE>
+        <IATXRE refcount="0">CreateDialogParamA</IATXRE>
+        <IATXRE refcount="0">InvalidateRgn</IATXRE>
+        <IATXRE refcount="0">GetUserObjectInformationW</IATXRE>
+        <IATXRE refcount="0">CheckDlgButton</IATXRE>
+        <IATXRE refcount="0">DialogBoxIndirectParamW</IATXRE>
+        <IATXRE refcount="0">RedrawWindow</IATXRE>
+        <IATXRE refcount="0">GetParent</IATXRE>
+        <IATXRE refcount="0">GetClassNameW</IATXRE>
+        <IATXRE refcount="0">CheckMenuRadioItem</IATXRE>
+        <IATXRE refcount="0">DefFrameProcA</IATXRE>
+        <IATXRE refcount="0">PostThreadMessageA</IATXRE>
+        <IATXRE refcount="0">ChangeMenuW</IATXRE>
+        <IATXRE refcount="0">GetForegroundWindow</IATXRE>
+        <IATXRE refcount="0">GetNextDlgTabItem</IATXRE>
+        <IATXRE refcount="0">SetProcessWindowStation</IATXRE>
+        <IATXRE refcount="0">MessageBoxA</IATXRE>
+        <IATXRE refcount="0">ScrollWindowEx</IATXRE>
+        <IATXRE refcount="0">CharPrevExA</IATXRE>
+        <IATXRE refcount="0">BlockInput</IATXRE>
+        <IATXRE refcount="0">DestroyAcceleratorTable</IATXRE>
+        <IATXRE refcount="0">UnregisterClassW</IATXRE>
+        <IATXRE refcount="0">CopyAcceleratorTableA</IATXRE>
+        <IATXRE refcount="0">GetClassInfoExW</IATXRE>
+        <IATXRE refcount="0">ShowScrollBar</IATXRE>
+        <IATXRE refcount="0">GetWindowModuleFileNameW</IATXRE>
+        <IATXRE refcount="0">TrackPopupMenu</IATXRE>
+        <IATXRE refcount="0">EmptyClipboard</IATXRE>
+        <IATXRE refcount="0">RegisterDeviceNotificationA</IATXRE>
+        <IATXRE refcount="0">SetThreadDesktop</IATXRE>
+        <IATXRE refcount="0">GetAsyncKeyState</IATXRE>
+        <IATXRE refcount="0">SetWindowsHookA</IATXRE>
+        <IATXRE refcount="0">MapVirtualKeyExW</IATXRE>
+        <IATXRE refcount="0">MessageBoxW</IATXRE>
+        <IATXRE refcount="0">FlashWindowEx</IATXRE>
+        <IATXRE refcount="0">GetUpdateRect</IATXRE>
+        <IATXRE refcount="0">IsCharUpperW</IATXRE>
+        <IATXRE refcount="0">GetUserObjectSecurity</IATXRE>
+        <IATXRE refcount="0">GetWindowLongA</IATXRE>
+        <IATXRE refcount="0">CheckMenuItem</IATXRE>
+        <IATXRE refcount="0">FindWindowA</IATXRE>
+        <IATXRE refcount="0">SetClipboardData</IATXRE>
+        <IATXRE refcount="0">GetKeyboardState</IATXRE>
+        <IATXRE refcount="0">IsGUIThread</IATXRE>
+        <IATXRE refcount="0">PrintWindow</IATXRE>
+        <IATXRE refcount="0">ModifyMenuA</IATXRE>
+        <IATXRE refcount="0">EnableScrollBar</IATXRE>
+        <IATXRE refcount="0">FindWindowExA</IATXRE>
+        <IATXRE refcount="0">GetWindowThreadProcessId</IATXRE>
+        <IATXRE refcount="0">UpdateLayeredWindow</IATXRE>
+        <IATXRE refcount="0">MessageBoxExA</IATXRE>
+        <IATXRE refcount="0">SetScrollPos</IATXRE>
+        <IATXRE refcount="0">RegisterClassExA</IATXRE>
+        <IATXRE refcount="0">ChildWindowFromPoint</IATXRE>
+        <IATXRE refcount="0">OemToCharA</IATXRE>
+        <IATXRE refcount="0">MessageBoxTimeoutA</IATXRE>
+        <IATXRE refcount="0">DestroyWindow</IATXRE>
+        <IATXRE refcount="0">DeleteMenu</IATXRE>
+        <IATXRE refcount="0">CharToOemBuffA</IATXRE>
+        <IATXRE refcount="0">GetWindowWord</IATXRE>
+        <IATXRE refcount="0">RealChildWindowFromPoint</IATXRE>
+        <IATXRE refcount="0">AppendMenuA</IATXRE>
+        <IATXRE refcount="0">SystemParametersInfoW</IATXRE>
+        <IATXRE refcount="0">ToAsciiEx</IATXRE>
+        <IATXRE refcount="0">CallWindowProcW</IATXRE>
+        <IATXRE refcount="0">GetGuiResources</IATXRE>
+        <IATXRE refcount="0">IsMenu</IATXRE>
+        <IATXRE refcount="0">IsRectEmpty</IATXRE>
+        <IATXRE refcount="0">GetKeyboardLayout</IATXRE>
+        <IATXRE refcount="0">RegisterClassW</IATXRE>
+        <IATXRE refcount="0">CharPrevA</IATXRE>
+        <IATXRE refcount="0">GetMouseMovePointsEx</IATXRE>
+        <IATXRE refcount="0">SetWindowTextW</IATXRE>
+        <IATXRE refcount="0">RegisterWindowMessageW</IATXRE>
+        <IATXRE refcount="0">SetUserObjectInformationA</IATXRE>
+        <IATXRE refcount="0">SetPropA</IATXRE>
+        <IATXRE refcount="0">SetWindowRgn</IATXRE>
+        <IATXRE refcount="0">SubtractRect</IATXRE>
+        <IATXRE refcount="0">ChangeDisplaySettingsExW</IATXRE>
+        <IATXRE refcount="0">KillTimer</IATXRE>
+        <IATXRE refcount="0">GetComboBoxInfo</IATXRE>
+        <IATXRE refcount="0">MenuItemFromPoint</IATXRE>
+        <IATXRE refcount="0">GetMenu</IATXRE>
+        <IATXRE refcount="0">PostMessageA</IATXRE>
+        <IATXRE refcount="0">LoadImageW</IATXRE>
+        <IATXRE refcount="0">GetUserObjectInformationA</IATXRE>
+        <IATXRE refcount="0">InsertMenuItemA</IATXRE>
+        <IATXRE refcount="0">SetDebugErrorLevel</IATXRE>
+        <IATXRE refcount="0">DrawMenuBar</IATXRE>
+        <IATXRE refcount="0">ChangeDisplaySettingsW</IATXRE>
+        <IATXRE refcount="0">DrawCaptionTempW</IATXRE>
+        <IATXRE refcount="0">DestroyMenu</IATXRE>
+        <IATXRE refcount="0">OpenClipboard</IATXRE>
+        <IATXRE refcount="0">SetParent</IATXRE>
+        <IATXRE refcount="0">TranslateMessageEx</IATXRE>
+        <IATXRE refcount="0">GetClipboardOwner</IATXRE>
+        <IATXRE refcount="0">UnlockWindowStation</IATXRE>
+        <IATXRE refcount="0">GetUpdateRgn</IATXRE>
+        <IATXRE refcount="0">PeekMessageA</IATXRE>
+        <IATXRE refcount="0">CascadeWindows</IATXRE>
+        <IATXRE refcount="0">GetDlgItemTextA</IATXRE>
+        <IATXRE refcount="0">GetLastActivePopup</IATXRE>
+        <IATXRE refcount="0">SendNotifyMessageW</IATXRE>
+        <IATXRE refcount="0">GetProgmanWindow</IATXRE>
+        <IATXRE refcount="0">GetWindowRect</IATXRE>
+        <IATXRE refcount="0">CharUpperW</IATXRE>
+        <IATXRE refcount="0">GetKeyState</IATXRE>
+        <IATXRE refcount="0">GetScrollBarInfo</IATXRE>
+        <IATXRE refcount="0">LoadCursorA</IATXRE>
+        <IATXRE refcount="0">DialogBoxIndirectParamA</IATXRE>
+        <IATXRE refcount="0">AllowForegroundActivation</IATXRE>
+        <IATXRE refcount="0">TrackMouseEvent</IATXRE>
+        <IATXRE refcount="0">ToAscii</IATXRE>
+        <IATXRE refcount="0">TabbedTextOutA</IATXRE>
+        <IATXRE refcount="0">SetFocus</IATXRE>
+        <IATXRE refcount="0">InflateRect</IATXRE>
+        <IATXRE refcount="0">CreateDialogIndirectParamW</IATXRE>
+        <IATXRE refcount="0">SetWindowPlacement</IATXRE>
+        <IATXRE refcount="0">BroadcastSystemMessageW</IATXRE>
+        <IATXRE refcount="0">SetDlgItemTextA</IATXRE>
+        <IATXRE refcount="0">GetMessageW</IATXRE>
+        <IATXRE refcount="0">CallMsgFilterW</IATXRE>
+        <IATXRE refcount="0">GetMenuItemInfoA</IATXRE>
+        <IATXRE refcount="0">SetMenuContextHelpId</IATXRE>
+        <IATXRE refcount="0">IsCharLowerA</IATXRE>
+        <IATXRE refcount="0">IsCharAlphaA</IATXRE>
+        <IATXRE refcount="0">DrawIconEx</IATXRE>
+        <IATXRE refcount="0">SetSysColors</IATXRE>
+        <IATXRE refcount="0">LoadMenuW</IATXRE>
+        <IATXRE refcount="0">SetSystemCursor</IATXRE>
+        <IATXRE refcount="0">PostQuitMessage</IATXRE>
+        <IATXRE refcount="0">GetSystemMetrics</IATXRE>
+        <IATXRE refcount="0">GetMonitorInfoW</IATXRE>
+        <IATXRE refcount="0">SwitchDesktop</IATXRE>
+        <IATXRE refcount="0">AlignRects</IATXRE>
+        <IATXRE refcount="0">CheckRadioButton</IATXRE>
+        <IATXRE refcount="0">GetClipboardFormatNameA</IATXRE>
+        <IATXRE refcount="0">CreateMenu</IATXRE>
+        <IATXRE refcount="0">GetMenuDefaultItem</IATXRE>
+        <IATXRE refcount="0">DispatchMessageA</IATXRE>
+        <IATXRE refcount="0">EnableWindow</IATXRE>
+        <IATXRE refcount="0">GetClassLongA</IATXRE>
+        <IATXRE refcount="0">ChangeMenuA</IATXRE>
+        <IATXRE refcount="0">DrawStateW</IATXRE>
+        <IATXRE refcount="0">IsDialogMessageW</IATXRE>
+        <IATXRE refcount="0">RegisterWindowMessageA</IATXRE>
+        <IATXRE refcount="0">IsCharAlphaW</IATXRE>
+        <IATXRE refcount="0">LoadStringW</IATXRE>
+        <IATXRE refcount="0">EnumThreadWindows</IATXRE>
+        <IATXRE refcount="0">SetCursorContents</IATXRE>
+        <IATXRE refcount="0">DispatchMessageW</IATXRE>
+        <IATXRE refcount="0">GetKeyNameTextW</IATXRE>
+        <IATXRE refcount="0">GetClassInfoExA</IATXRE>
+        <IATXRE refcount="0">GetWindowContextHelpId</IATXRE>
+        <IATXRE refcount="0">AdjustWindowRect</IATXRE>
+        <IATXRE refcount="0">IsCharLowerW</IATXRE>
+        <IATXRE refcount="0">DlgDirSelectExW</IATXRE>
+        <IATXRE refcount="0">SetDeskWallpaper</IATXRE>
+        <IATXRE refcount="0">CreateCaret</IATXRE>
+        <IATXRE refcount="0">SystemParametersInfoA</IATXRE>
+        <IATXRE refcount="0">SetLayeredWindowAttributes</IATXRE>
+        <IATXRE refcount="0">CloseWindowStation</IATXRE>
+        <IATXRE refcount="0">MonitorFromRect</IATXRE>
+        <IATXRE refcount="0">GetSysColorBrush</IATXRE>
+        <IATXRE refcount="0">DestroyIcon</IATXRE>
+        <IATXRE refcount="0">IsCharAlphaNumericW</IATXRE>
+        <IATXRE refcount="0">GetMenuItemCount</IATXRE>
+      </IATXRES>
+      <AVPSIG/>
+    </SIGNATURE>
+    <HERUSTIC>
+      <HERUSTICITEM>
+        <ITEMNAME>PE_OLD_TIME_STAMP</ITEMNAME>
+        <CONTENT>20</CONTENT>
+      </HERUSTICITEM>
+      <HERUSTICITEM>
+        <ITEMNAME>PE_SUBSYS_GUI</ITEMNAME>
+        <CONTENT>-5</CONTENT>
+      </HERUSTICITEM>
+      <HERUSTICITEM>
+        <ITEMNAME>PE_HAS_CERT</ITEMNAME>
+        <CONTENT>-5</CONTENT>
+      </HERUSTICITEM>
+      <HERUSTICITEM>
+        <ITEMNAME>PE_NO_VERSION</ITEMNAME>
+        <CONTENT>32</CONTENT>
+      </HERUSTICITEM>
+      <HERUSTICITEM>
+        <ITEMNAME>TOTAL_THR</ITEMNAME>
+        <CONTENT>42</CONTENT>
+      </HERUSTICITEM>
+    </HERUSTIC>
+    <FILEVERSIONINFO>
+      <PRODUCTVERSION>4.50.0.0</PRODUCTVERSION>
+      <COMPANYNAME>C. Ghisler &amp; Co.</COMPANYNAME>
+      <LEGALCOPYRIGHT>Copyright (C) Christian Ghisler, C. Ghisler &amp; Co., 2000</LEGALCOPYRIGHT>
+      <ORIGINALFILENAME>CGLPTNT.SYS</ORIGINALFILENAME>
+    </FILEVERSIONINFO>
+    <DIGITALSIGNATURE local_check_result="True">
+      <PROGRAMNAME/>
+      <MOREINFOLINK/>
+      <SIGNERSERIALNUMBER> 00 c2 d0 60 08 f8 20 40 a9 be d3 58 d6 ce b5 54 2d </SIGNERSERIALNUMBER>
+      <TIMESTAMPSERIALNUMBER/>
+      <SIGENERISSUERNAME> COMODO Code Signing CA 2</SIGENERISSUERNAME>
+      <TIMESTAMPISSUERNAME/>
+      <SIGNERSUBJECTNAME> Synteris OOO</SIGNERSUBJECTNAME>
+      <TIMESTAMPSIGNERSUBJECTNAME/>
+      <DATAOFTIMESTAMP/>
+    </DIGITALSIGNATURE>
+    <PERES_ICON/>
+    <PEJUDGE>EXE_PEFORMAT</PEJUDGE>
+    <PEINTEGRITY>complete</PEINTEGRITY>
+    <SPLITEXTRAMASTER>66AE2FCEC76C88865DF1DC6CBB792B0D.334FB249</SPLITEXTRAMASTER>
+    <SPLITEXTRATAIL>88653914518A7758774F4ED01A81993A.562703C7</SPLITEXTRATAIL>
+    <STRINGS>
+      <STRING count="1">"kNdmb</STRING>
+      <STRING count="1">#DftF</STRING>
+      <STRING base64="True" count="1">K1d3RXI=</STRING>
+      <STRING count="1">-2.EL</STRING>
+      <STRING count="1">-tCN#</STRING>
+      <STRING count="1">.idata</STRING>
+      <STRING count="1">.reloc</STRING>
+      <STRING base64="True" count="1">L3dFVVQ3</STRING>
+      <STRING base64="True" count="1">MC5BVUZiPQ==</STRING>
+      <STRING count="1">09omH</STRING>
+      <STRING base64="True" count="1">MDxUZVM=</STRING>
+      <STRING base64="True" count="1">MGh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0NPTU9ET0NvZGVTaWduaW5nQ0EyLmNybDBy</STRING>
+      <STRING base64="True" count="1">MGh0dHA6Ly9jcnQuY29tb2RvY2EuY29tL0NPTU9ET0NvZGVTaWduaW5nQ0EyLmNydDAk</STRING>
+      <STRING count="1">0sRhA</STRING>
+      <STRING count="1">12 A ul.Gorbunova1</STRING>
+      <STRING count="1">1E.gs</STRING>
+      <STRING base64="True" count="1">MWh0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9VVE4tVVNFUkZpcnN0LU9iamVjdC5jcmwwKQ==</STRING>
+      <STRING base64="True" count="1">MWh0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9VVE4tVVNFUkZpcnN0LU9iamVjdC5jcmwwdA==</STRING>
+      <STRING base64="True" count="1">MWh0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9VVE5BZGRUcnVzdE9iamVjdF9DQS5jcnQwJQ==</STRING>
+      <STRING base64="True" count="1">M2ZFeCU=</STRING>
+      <STRING count="1">4AyHCa</STRING>
+      <STRING base64="True" count="1">Nz1YR2Rh</STRING>
+      <STRING base64="True" count="1">OEFsL0Y=</STRING>
+      <STRING base64="True" count="1">OSwgcjE=</STRING>
+      <STRING base64="True" count="1">PC9hc3NlbWJseT4=</STRING>
+      <STRING base64="True" count="1">PC9kZXBlbmRlbmN5Pg==</STRING>
+      <STRING base64="True" count="1">PC9kZXBlbmRlbnRBc3NlbWJseT4=</STRING>
+      <STRING base64="True" count="1">PC9yZXF1ZXN0ZWRQcml2aWxlZ2VzPg==</STRING>
+      <STRING base64="True" count="1">PC9zZWN1cml0eT4=</STRING>
+      <STRING base64="True" count="1">PC90cnVzdEluZm8+</STRING>
+      <STRING base64="True" count="1">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg==</STRING>
+      <STRING base64="True" count="1">PGFzc2VtYmx5IHhtbG5zPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOmFzbS52MSIgbWFuaWZlc3RWZXJzaW9uPSIxLjAiPg==</STRING>
+      <STRING base64="True" count="2">PGFzc2VtYmx5SWRlbnRpdHk=</STRING>
+      <STRING base64="True" count="1">PGRlcGVuZGVuY3k+</STRING>
+      <STRING base64="True" count="1">PGRlcGVuZGVudEFzc2VtYmx5Pg==</STRING>
+      <STRING base64="True" count="1">PGRlc2NyaXB0aW9uPg==</STRING>
+      <STRING base64="True" count="1">PHJlcXVlc3RlZEV4ZWN1dGlvbkxldmVs</STRING>
+      <STRING base64="True" count="1">PHJlcXVlc3RlZFByaXZpbGVnZXM+</STRING>
+      <STRING base64="True" count="1">PHNlY3VyaXR5Pg==</STRING>
+      <STRING base64="True" count="1">PHRydXN0SW5mbyB4bWxucz0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTphc20udjMiPg==</STRING>
+      <STRING base64="True" count="1">P3NlXFM=</STRING>
+      <STRING count="1">@fAlzy</STRING>
+      <STRING count="1">A.ZmvP</STRING>
+      <STRING count="1">AIESPJUTBOQV</STRING>
+      <STRING count="1">AUMOIOLVISAFU</STRING>
+      <STRING base64="True" count="1">QVxmdGM=</STRING>
+      <STRING count="1">ActivateKeyboardLayout</STRING>
+      <STRING count="1">AddConsoleAliasA</STRING>
+      <STRING count="1">AddPortA</STRING>
+      <STRING count="1">AddPrinterConnectionA</STRING>
+      <STRING count="1">AdjustWindowRect</STRING>
+      <STRING count="2">AlignRects</STRING>
+      <STRING count="1">AllowForegroundActivation</STRING>
+      <STRING count="1">AnyPopup</STRING>
+      <STRING count="1">AppendMenuA</STRING>
+      <STRING count="1">AssocQueryStringA</STRING>
+      <STRING count="1">AssocQueryStringByKeyW</STRING>
+      <STRING count="1">AttachThreadInput</STRING>
+      <STRING count="1">B-[ook</STRING>
+      <STRING count="1">BSkKc</STRING>
+      <STRING count="2">BlockInput</STRING>
+      <STRING count="1">Boolean</STRING>
+      <STRING count="2">BringWindowToTop</STRING>
+      <STRING count="1">BroadcastSystemMessageA</STRING>
+      <STRING count="1">BroadcastSystemMessageExA</STRING>
+      <STRING count="1">BroadcastSystemMessageW</STRING>
+      <STRING count="1">BuildCommDCBAndTimeoutsW</STRING>
+      <STRING count="1">COMCTL32.DLL</STRING>
+      <STRING count="1">COMDLG32.DLL</STRING>
+      <STRING count="3">COMODO CA Limited1!0</STRING>
+      <STRING count="1">COMODO Code Signing CA 2</STRING>
+      <STRING count="2">COMODO Code Signing CA 20</STRING>
+      <STRING count="1">CS7{D</STRING>
+      <STRING count="2">CallMsgFilterW</STRING>
+      <STRING count="1">CallWindowProcA</STRING>
+      <STRING count="2">CallWindowProcW</STRING>
+      <STRING count="2">CascadeWindows</STRING>
+      <STRING count="1">ChangeDisplaySettingsExW</STRING>
+      <STRING count="2">ChangeDisplaySettingsW</STRING>
+      <STRING count="1">ChangeMenuA</STRING>
+      <STRING count="1">ChangeMenuW</STRING>
+      <STRING count="1">CharLowerBuffA</STRING>
+      <STRING count="1">CharPrevA</STRING>
+      <STRING count="1">CharPrevExA</STRING>
+      <STRING count="1">CharToOemBuffA</STRING>
+      <STRING count="1">CharUpperW</STRING>
+      <STRING count="1">CheckDlgButton</STRING>
+      <STRING count="2">CheckMenuItem</STRING>
+      <STRING count="2">CheckMenuRadioItem</STRING>
+      <STRING count="1">CheckRadioButton</STRING>
+      <STRING count="1">ChildWindowFromPoint</STRING>
+      <STRING count="1">ChildWindowFromPointEx</STRING>
+      <STRING count="1">ChooseColorA</STRING>
+      <STRING count="1">CloseDesktop</STRING>
+      <STRING count="1">ClosePrinter</STRING>
+      <STRING count="2">CloseWindow</STRING>
+      <STRING count="2">CloseWindowStation</STRING>
+      <STRING count="1">CompareStringA</STRING>
+      <STRING count="1">ConsoleMenuControl</STRING>
+      <STRING count="1">CopyAcceleratorTableA</STRING>
+      <STRING count="1">CopyAcceleratorTableW</STRING>
+      <STRING count="1">CopyFileExA</STRING>
+      <STRING count="1">CreateCaret</STRING>
+      <STRING count="1">CreateDialogIndirectParamW</STRING>
+      <STRING count="1">CreateDialogParamA</STRING>
+      <STRING count="1">CreateJobSet</STRING>
+      <STRING count="1">CreateMDIWindowW</STRING>
+      <STRING count="1">CreateMenu</STRING>
+      <STRING count="1">CreateNamedPipeW</STRING>
+      <STRING count="1">CreateTapePartition</STRING>
+      <STRING count="1">DefDlgProcW</STRING>
+      <STRING count="1">DefFrameProcA</STRING>
+      <STRING count="1">DefFrameProcW</STRING>
+      <STRING count="1">DefWindowProcW</STRING>
+      <STRING count="1">DelayLoadFailureHook</STRING>
+      <STRING count="1">DeleteMenu</STRING>
+      <STRING count="1">DeleteMonitorW</STRING>
+      <STRING count="1">DeletePrinterDataExW</STRING>
+      <STRING count="1">DeletePrinterDriverW</STRING>
+      <STRING count="2">DestroyAcceleratorTable</STRING>
+      <STRING count="1">DestroyCaret</STRING>
+      <STRING count="1">DestroyIcon</STRING>
+      <STRING count="1">DestroyMenu</STRING>
+      <STRING count="1">DestroyWindow</STRING>
+      <STRING count="2">DialogBoxIndirectParamA</STRING>
+      <STRING count="1">DialogBoxIndirectParamW</STRING>
+      <STRING count="1">DialogBoxParamW</STRING>
+      <STRING count="1">DispatchMessageA</STRING>
+      <STRING count="1">DispatchMessageW</STRING>
+      <STRING count="1">DlgDirListA</STRING>
+      <STRING count="1">DlgDirSelectExW</STRING>
+      <STRING count="1">Dr 64a C</STRING>
+      <STRING count="1">DrQTGh</STRING>
+      <STRING count="1">DrawCaptionTempW</STRING>
+      <STRING count="1">DrawFrameControl</STRING>
+      <STRING count="1">DrawIcon</STRING>
+      <STRING count="1">DrawIconEx</STRING>
+      <STRING count="1">DrawInsert</STRING>
+      <STRING count="1">DrawMenuBar</STRING>
+      <STRING count="1">DrawStateW</STRING>
+      <STRING count="1">DrawTextW</STRING>
+      <STRING count="2">EmptyClipboard</STRING>
+      <STRING count="1">EnableScrollBar</STRING>
+      <STRING count="2">EnableWindow</STRING>
+      <STRING count="1">EndMenu</STRING>
+      <STRING count="2">EnumCalendarInfoA</STRING>
+      <STRING count="1">EnumFormsW</STRING>
+      <STRING count="1">EnumPropsExW</STRING>
+      <STRING count="2">EnumThreadWindows</STRING>
+      <STRING count="1">EnumTimeFormatsW</STRING>
+      <STRING count="1">ExtractIconExA</STRING>
+      <STRING count="1">FalseQ</STRING>
+      <STRING count="1">FindClosePrinterChangeNotification</STRING>
+      <STRING count="1">FindFirstFileW</STRING>
+      <STRING count="1">FindWindowA</STRING>
+      <STRING count="1">FindWindowExA</STRING>
+      <STRING count="1">FindWindowExW</STRING>
+      <STRING count="1">FindWindowW</STRING>
+      <STRING count="1">FlashWindowEx</STRING>
+      <STRING count="1">FlatSB_SetScrollInfo</STRING>
+      <STRING count="2">FlatSB_SetScrollProp</STRING>
+      <STRING count="1">FrameRect</STRING>
+      <STRING count="1">G@lVw</STRING>
+      <STRING count="1">GetAsyncKeyState</STRING>
+      <STRING count="1">GetCapture</STRING>
+      <STRING count="1">GetCaretPos</STRING>
+      <STRING count="1">GetClassInfoExA</STRING>
+      <STRING count="1">GetClassInfoExW</STRING>
+      <STRING count="1">GetClassInfoW</STRING>
+      <STRING count="1">GetClassLongA</STRING>
+      <STRING count="1">GetClassNameW</STRING>
+      <STRING count="1">GetClipboardFormatNameA</STRING>
+      <STRING count="1">GetClipboardFormatNameW</STRING>
+      <STRING count="1">GetClipboardOwner</STRING>
+      <STRING count="1">GetComboBoxInfo</STRING>
+      <STRING count="1">GetConsoleDisplayMode</STRING>
+      <STRING count="1">GetConsoleInputExeNameA</STRING>
+      <STRING count="1">GetCurrentProcessId</STRING>
+      <STRING count="1">GetCursorPos</STRING>
+      <STRING count="1">GetDCEx</STRING>
+      <STRING count="1">GetDefaultPrinterW</STRING>
+      <STRING count="1">GetDevicePowerState</STRING>
+      <STRING count="1">GetDlgItemTextA</STRING>
+      <STRING count="1">GetEnvironmentVariableW</STRING>
+      <STRING count="1">GetFileInformationByHandle</STRING>
+      <STRING count="1">GetFileTitleA</STRING>
+      <STRING count="1">GetFileTitleW</STRING>
+      <STRING count="1">GetForegroundWindow</STRING>
+      <STRING count="1">GetGuiResources</STRING>
+      <STRING count="1">GetIconInfo</STRING>
+      <STRING count="1">GetInputState</STRING>
+      <STRING count="1">GetKeyNameTextW</STRING>
+      <STRING count="1">GetKeyState</STRING>
+      <STRING count="2">GetKeyboardLayout</STRING>
+      <STRING count="2">GetKeyboardState</STRING>
+      <STRING count="1">GetLastActivePopup</STRING>
+      <STRING count="1">GetLastInputInfo</STRING>
+      <STRING count="1">GetLocalTime</STRING>
+      <STRING count="1">GetMenu</STRING>
+      <STRING count="1">GetMenuDefaultItem</STRING>
+      <STRING count="1">GetMenuInfo</STRING>
+      <STRING count="1">GetMenuItemCount</STRING>
+      <STRING count="1">GetMenuItemInfoA</STRING>
+      <STRING count="1">GetMenuStringA</STRING>
+      <STRING count="1">GetMessagePos</STRING>
+      <STRING count="1">GetMessageW</STRING>
+      <STRING count="1">GetMonitorInfoA</STRING>
+      <STRING count="1">GetMonitorInfoW</STRING>
+      <STRING count="1">GetMouseMovePointsEx</STRING>
+      <STRING count="1">GetNextDlgTabItem</STRING>
+      <STRING count="1">GetOverlappedResult</STRING>
+      <STRING count="1">GetParent</STRING>
+      <STRING count="1">GetPrinterDataExW</STRING>
+      <STRING count="1">GetPrivateProfileSectionNamesA</STRING>
+      <STRING count="1">GetProcessTimes</STRING>
+      <STRING count="1">GetProcessWindowStation</STRING>
+      <STRING count="1">GetProgmanWindow</STRING>
+      <STRING count="1">GetPropA</STRING>
+      <STRING count="1">GetRawInputDeviceInfoA</STRING>
+      <STRING count="1">GetSaveFileNameW</STRING>
+      <STRING count="1">GetScrollBarInfo</STRING>
+      <STRING count="2">GetStartupInfoW</STRING>
+      <STRING count="1">GetSubMenu</STRING>
+      <STRING count="1">GetSysColorBrush</STRING>
+      <STRING count="1">GetSystemMetrics</STRING>
+      <STRING count="1">GetThreadPriority</STRING>
+      <STRING count="1">GetTopWindow</STRING>
+      <STRING count="1">GetUpdateRect</STRING>
+      <STRING count="2">GetUpdateRgn</STRING>
+      <STRING count="2">GetUserObjectInformationA</STRING>
+      <STRING count="1">GetUserObjectInformationW</STRING>
+      <STRING count="1">GetUserObjectSecurity</STRING>
+      <STRING count="1">GetWindowContextHelpId</STRING>
+      <STRING count="1">GetWindowLongA</STRING>
+      <STRING count="1">GetWindowLongW</STRING>
+      <STRING count="1">GetWindowModuleFileNameW</STRING>
+      <STRING count="2">GetWindowRect</STRING>
+      <STRING count="1">GetWindowTextLengthA</STRING>
+      <STRING count="1">GetWindowTextW</STRING>
+      <STRING count="1">GetWindowThreadProcessId</STRING>
+      <STRING count="1">GetWindowWord</STRING>
+      <STRING count="1">GfpyE</STRING>
+      <STRING count="1">GrayStringW</STRING>
+      <STRING count="3">Greater Manchester1</STRING>
+      <STRING count="1">H sWr</STRING>
+      <STRING count="1">HashData</STRING>
+      <STRING count="1">HeapDestroy</STRING>
+      <STRING count="1">ImageList_AddMasked</STRING>
+      <STRING count="1">ImageList_Draw</STRING>
+      <STRING count="1">ImageList_GetIcon</STRING>
+      <STRING count="1">ImageList_LoadImageA</STRING>
+      <STRING count="1">ImageList_SetBkColor</STRING>
+      <STRING count="1">ImpersonateNamedPipeClient</STRING>
+      <STRING count="1">InflateRect</STRING>
+      <STRING count="1">InsertMenuItemA</STRING>
+      <STRING count="1">InterlockedDecrement</STRING>
+      <STRING count="1">InvalidateRgn</STRING>
+      <STRING count="1">IsCharAlphaA</STRING>
+      <STRING count="2">IsCharAlphaNumericW</STRING>
+      <STRING count="2">IsCharAlphaW</STRING>
+      <STRING count="2">IsCharLowerA</STRING>
+      <STRING count="1">IsCharLowerW</STRING>
+      <STRING count="1">IsCharUpperW</STRING>
+      <STRING count="1">IsDialogMessageW</STRING>
+      <STRING count="1">IsGUIThread</STRING>
+      <STRING count="1">IsMenu</STRING>
+      <STRING count="1">IsRectEmpty</STRING>
+      <STRING count="1">IsWindowUnicode</STRING>
+      <STRING count="1">IsZoomed</STRING>
+      <STRING count="1">KERNEL32.DLL</STRING>
+      <STRING count="1">KillTimer</STRING>
+      <STRING count="1">LZCopy</STRING>
+      <STRING count="1">LZOpenFileW</STRING>
+      <STRING count="2">LoadCursorA</STRING>
+      <STRING count="1">LoadIconW</STRING>
+      <STRING count="1">LoadImageW</STRING>
+      <STRING count="1">LoadKeyboardLayoutW</STRING>
+      <STRING count="1">LoadLibraryW</STRING>
+      <STRING count="2">LoadMenuIndirectA</STRING>
+      <STRING count="1">LoadMenuW</STRING>
+      <STRING count="1">LoadStringW</STRING>
+      <STRING count="1">MakeDragList</STRING>
+      <STRING count="2">MapVirtualKeyExW</STRING>
+      <STRING count="1">MenuItemFromPoint</STRING>
+      <STRING count="1">MenuWindowProcW</STRING>
+      <STRING count="2">MessageBoxA</STRING>
+      <STRING count="2">MessageBoxExA</STRING>
+      <STRING count="1">MessageBoxIndirectA</STRING>
+      <STRING count="1">MessageBoxTimeoutA</STRING>
+      <STRING count="1">MessageBoxW</STRING>
+      <STRING count="1">ModifyMenuA</STRING>
+      <STRING count="1">ModifyMenuW</STRING>
+      <STRING count="1">MonitorFromRect</STRING>
+      <STRING count="1">Moscow province1</STRING>
+      <STRING count="1">Moscow1</STRING>
+      <STRING count="1">MoveFileExW</STRING>
+      <STRING count="1">MoveFileWithProgressA</STRING>
+      <STRING count="1">NAOSOTDJPRRAFBUHMR</STRING>
+      <STRING count="1">ND-TY</STRING>
+      <STRING count="1">NHAVl</STRING>
+      <STRING count="1">NSyeq</STRING>
+      <STRING base64="True" count="1">TmlhZTs=</STRING>
+      <STRING count="1">OLEAUT32.DLL</STRING>
+      <STRING count="1">OTS .</STRING>
+      <STRING count="1">OemKeyScan</STRING>
+      <STRING count="1">OemToCharA</STRING>
+      <STRING count="1">OffsetRect</STRING>
+      <STRING count="1">OpenClipboard</STRING>
+      <STRING count="1">OpenDesktopA</STRING>
+      <STRING count="1">OpenDesktopW</STRING>
+      <STRING count="1">P.rsrc</STRING>
+      <STRING count="1">PIGWR</STRING>
+      <STRING count="1">PageSetupDlgA</STRING>
+      <STRING count="1">PathFindNextComponentA</STRING>
+      <STRING count="1">PathIsURLW</STRING>
+      <STRING count="1">PathParseIconLocationW</STRING>
+      <STRING count="2">PeekMessageA</STRING>
+      <STRING count="1">PerfClose</STRING>
+      <STRING count="1">PostMessageA</STRING>
+      <STRING count="1">PostQuitMessage</STRING>
+      <STRING count="1">PostThreadMessageA</STRING>
+      <STRING count="2">PrintDlgW</STRING>
+      <STRING count="2">PrintWindow</STRING>
+      <STRING count="1">QEOR-H</STRING>
+      <STRING count="1">ReadConsoleOutputCharacterA</STRING>
+      <STRING count="1">ReadFileEx</STRING>
+      <STRING count="1">RealChildWindowFromPoint</STRING>
+      <STRING count="1">RealGetWindowClassA</STRING>
+      <STRING count="1">RedrawWindow</STRING>
+      <STRING count="1">RegisterClassA</STRING>
+      <STRING count="2">RegisterClassExA</STRING>
+      <STRING count="1">RegisterClassExW</STRING>
+      <STRING count="1">RegisterClassW</STRING>
+      <STRING count="1">RegisterClipboardFormatW</STRING>
+      <STRING count="1">RegisterDeviceNotificationA</STRING>
+      <STRING count="2">RegisterWindowMessageA</STRING>
+      <STRING count="1">RegisterWindowMessageW</STRING>
+      <STRING count="1">RegisterWowExec</STRING>
+      <STRING count="1">ReleaseCapture</STRING>
+      <STRING count="1">SHCreateDirectoryExA</STRING>
+      <STRING count="1">SHELL32.DLL</STRING>
+      <STRING count="1">SHEmptyRecycleBinW</STRING>
+      <STRING count="1">SHEnumKeyExW</STRING>
+      <STRING count="1">SHEnumerateUnreadMailAccountsW</STRING>
+      <STRING count="1">SHGetIconOverlayIndexW</STRING>
+      <STRING count="1">SHLWAPI.DLL</STRING>
+      <STRING count="1">SHRegOpenUSKeyA</STRING>
+      <STRING count="1">SHReleaseThreadRef</STRING>
+      <STRING count="1">SafeArrayCreateEx</STRING>
+      <STRING count="1">SafeArrayLock</STRING>
+      <STRING count="3">Salford1</STRING>
+      <STRING count="3">Salt Lake City1</STRING>
+      <STRING count="1">ScheduleJob</STRING>
+      <STRING count="1">ScrollWindowEx</STRING>
+      <STRING count="1">SendMessageCallbackA</STRING>
+      <STRING count="1">SendNotifyMessageW</STRING>
+      <STRING count="1">SetActiveWindow</STRING>
+      <STRING count="1">SetCalendarInfoA</STRING>
+      <STRING count="1">SetCapture</STRING>
+      <STRING count="1">SetClipboardData</STRING>
+      <STRING count="1">SetCurrentDirectoryW</STRING>
+      <STRING count="1">SetCursorContents</STRING>
+      <STRING count="1">SetDebugErrorLevel</STRING>
+      <STRING count="1">SetDeskWallpaper</STRING>
+      <STRING count="2">SetDlgItemTextA</STRING>
+      <STRING count="1">SetDlgItemTextW</STRING>
+      <STRING count="1">SetFocus</STRING>
+      <STRING count="1">SetForegroundWindow</STRING>
+      <STRING count="1">SetHandleInformation</STRING>
+      <STRING count="1">SetLayeredWindowAttributes</STRING>
+      <STRING count="1">SetMenuContextHelpId</STRING>
+      <STRING count="1">SetParent</STRING>
+      <STRING count="1">SetProcessWindowStation</STRING>
+      <STRING count="1">SetPropA</STRING>
+      <STRING count="1">SetScrollPos</STRING>
+      <STRING count="1">SetSysColors</STRING>
+      <STRING count="2">SetSystemCursor</STRING>
+      <STRING count="1">SetThreadDesktop</STRING>
+      <STRING count="1">SetThreadPriorityBoost</STRING>
+      <STRING count="1">SetUserObjectInformationA</STRING>
+      <STRING count="1">SetWindowContextHelpId</STRING>
+      <STRING count="2">SetWindowPlacement</STRING>
+      <STRING count="1">SetWindowRgn</STRING>
+      <STRING count="1">SetWindowTextW</STRING>
+      <STRING count="1">SetWindowWord</STRING>
+      <STRING count="1">SetWindowsHookA</STRING>
+      <STRING count="1">SetWindowsHookExA</STRING>
+      <STRING count="1">ShowScrollBar</STRING>
+      <STRING count="1">SnbZE</STRING>
+      <STRING count="1">SpoolerPrinterEvent</STRING>
+      <STRING count="1">StrCatChainW</STRING>
+      <STRING count="1">StrChrA</STRING>
+      <STRING count="1">StrChrIA</STRING>
+      <STRING count="1">StrChrIW</STRING>
+      <STRING count="1">StrChrNW</STRING>
+      <STRING count="1">StrCmpNIA</STRING>
+      <STRING count="1">StrCmpNW</STRING>
+      <STRING count="1">StrFormatByteSize64A</STRING>
+      <STRING count="1">StrRStrIA</STRING>
+      <STRING count="1">StrRStrIW</STRING>
+      <STRING count="1">SubtractRect</STRING>
+      <STRING count="1">SuspendThread</STRING>
+      <STRING count="1">SwitchDesktop</STRING>
+      <STRING count="1">Synteris OOO0</STRING>
+      <STRING count="1">Synteris OOO1</STRING>
+      <STRING count="1">SystemParametersInfoA</STRING>
+      <STRING count="1">SystemParametersInfoW</STRING>
+      <STRING count="1">T bli</STRING>
+      <STRING count="1">TabbedTextOutA</STRING>
+      <STRING base64="True" count="1">VGhNMj0=</STRING>
+      <STRING count="3">The USERTRUST Network1!0</STRING>
+      <STRING count="1">This program must be run under Win32</STRING>
+      <STRING count="1">TileChildWindows</STRING>
+      <STRING count="1">ToAscii</STRING>
+      <STRING count="1">ToAsciiEx</STRING>
+      <STRING count="1">TrackMouseEvent</STRING>
+      <STRING count="1">TrackPopupMenu</STRING>
+      <STRING count="1">TranslateAcceleratorW</STRING>
+      <STRING count="1">TranslateMessageEx</STRING>
+      <STRING count="1">TransmitCommChar</STRING>
+      <STRING count="1">TrbN9</STRING>
+      <STRING count="1">UNKCP</STRING>
+      <STRING count="1">USER32.DLL</STRING>
+      <STRING count="3">UTN-USERFirst-Object0</STRING>
+      <STRING count="2">UnlockWindowStation</STRING>
+      <STRING count="1">UnregisterClassW</STRING>
+      <STRING count="1">UpdateLayeredWindow</STRING>
+      <STRING count="1">VarCyFromI4</STRING>
+      <STRING count="1">VarDecFromUI8</STRING>
+      <STRING count="1">VarI1FromR4</STRING>
+      <STRING count="1">VarI2FromUI1</STRING>
+      <STRING count="1">VarI4FromR4</STRING>
+      <STRING count="1">VarI4FromR8</STRING>
+      <STRING count="1">VarI8FromBool</STRING>
+      <STRING count="1">VarUI2FromUI8</STRING>
+      <STRING count="1">VarUI4FromI2</STRING>
+      <STRING count="1">VerifyVersionInfoA</STRING>
+      <STRING count="1">VerifyVersionInfoW</STRING>
+      <STRING count="1">WINSPOOL.DRV</STRING>
+      <STRING count="1">WaitForInputIdle</STRING>
+      <STRING count="2">WantArrows</STRING>
+      <STRING count="1">WiEMX</STRING>
+      <STRING count="1">WinHelpW</STRING>
+      <STRING count="1">WindowFromDC</STRING>
+      <STRING base64="True" count="1">WEVpUjw=</STRING>
+      <STRING count="1">Y8eDr</STRING>
+      <STRING count="1">YC_B[</STRING>
+      <STRING base64="True" count="1">XEF0Ymcj</STRING>
+      <STRING base64="True" count="1">XGh2cEM=</STRING>
+      <STRING count="1">]LCO_</STRING>
+      <STRING count="1">]p_xSM</STRING>
+      <STRING base64="True" count="1">YHhNIEs=</STRING>
+      <STRING count="1">advapi32.dll</STRING>
+      <STRING count="1">b e1$</STRING>
+      <STRING count="1">cGAgsz</STRING>
+      <STRING count="1">cM3yP o</STRING>
+      <STRING count="1">comctl32.dll</STRING>
+      <STRING count="1">comdlg32.dll</STRING>
+      <STRING count="1">dphr4</STRING>
+      <STRING count="1">dwLBSubclass</STRING>
+      <STRING base64="True" count="1">ZW4sa00=</STRING>
+      <STRING count="1">gNL.y</STRING>
+      <STRING count="1">gPTBp</STRING>
+      <STRING count="1">gq_tD</STRING>
+      <STRING count="1">hGaUd</STRING>
+      <STRING count="1">hefOXd</STRING>
+      <STRING base64="True" count="1">aHR0cDovL29jc3AuY29tb2RvY2EuY29tMA==</STRING>
+      <STRING base64="True" count="1">aHR0cDovL29jc3AudXNlcnRydXN0LmNvbTA=</STRING>
+      <STRING base64="True" count="3">aHR0cDovL3d3dy51c2VydHJ1c3QuY29tMQ==</STRING>
+      <STRING base64="True" count="1">aHR0cHM6Ly9zZWN1cmUuY29tb2RvLm5ldC9DUFMwQQ==</STRING>
+      <STRING count="1">kehPM</STRING>
+      <STRING count="1">kernel32.dll</STRING>
+      <STRING base64="True" count="1">bGFuZ3VhZ2U9Iioi</STRING>
+      <STRING base64="True" count="1">bGV2ZWw9InJlcXVpcmVBZG1pbmlzdHJhdG9yIg==</STRING>
+      <STRING count="1">lfct?</STRING>
+      <STRING count="1">liZ.y</STRING>
+      <STRING base64="True" count="1">bG9QPjw=</STRING>
+      <STRING count="1">ltpPLZ^W</STRING>
+      <STRING base64="True" count="1">bmFtZT0i</STRING>
+      <STRING base64="True" count="1">bmFtZT0iTWljcm9zb2Z0LldpbmRvd3MuQ29tbW9uLUNvbnRyb2xzIg==</STRING>
+      <STRING count="1">oleaut32.dll</STRING>
+      <STRING count="1">pdyX-2</STRING>
+      <STRING count="1">pk$SG</STRING>
+      <STRING base64="True" count="2">cHJvY2Vzc29yQXJjaGl0ZWN0dXJlPSJYODYi</STRING>
+      <STRING base64="True" count="1">cHVibGljS2V5VG9rZW49IjY1OTViNjQxNDRjY2YxZGYi</STRING>
+      <STRING count="1">rLP@1</STRING>
+      <STRING count="1">sZkTA</STRING>
+      <STRING count="1">sadkF</STRING>
+      <STRING count="1">shell32.dll</STRING>
+      <STRING count="1">shlwapi.dll</STRING>
+      <STRING count="1">stgRI@Oz</STRING>
+      <STRING count="1">support@synteris.ru0</STRING>
+      <STRING count="1">tuguu sl1</STRING>
+      <STRING base64="True" count="2">dHlwZT0id2luMzIi</STRING>
+      <STRING count="1">u)_PC</STRING>
+      <STRING base64="True" count="1">dWlBY2Nlc3M9ImZhbHNlIi8+</STRING>
+      <STRING count="1">user32.dll</STRING>
+      <STRING count="1">vWksi</STRING>
+      <STRING base64="True" count="1">dmVyc2lvbj0iMS4wLjAuMCI=</STRING>
+      <STRING base64="True" count="1">dmVyc2lvbj0iNi4wLjAuMCI=</STRING>
+      <STRING base64="True" count="1">d01pdH44</STRING>
+      <STRING count="1">winspool.drv</STRING>
+      <STRING count="1">xG 'e</STRING>
+      <STRING count="1">ySHhAd</STRING>
+      <STRING base64="True" count="1">ekFTRFw=</STRING>
+    </STRINGS>
+    <DETECTVM>False</DETECTVM>
+    <PESTRUCT>
+      <FILE_HEADER>
+        <MACHINE>0x014c</MACHINE>
+        <NUMBEROFSECTIONS>0x0006</NUMBEROFSECTIONS>
+        <NUMBEROFSYMBOLS>0x00000000</NUMBEROFSYMBOLS>
+        <POINTERTOSYMBOLTABLE>0x00000000</POINTERTOSYMBOLTABLE>
+        <SIZEOFOPTIONALHEADER>0x00e0</SIZEOFOPTIONALHEADER>
+        <TIMEDATESTAMP>0x2a425e19</TIMEDATESTAMP>
+      </FILE_HEADER>
+      <OPTIONAL_HEADER>
+        <ADDRESSOFENTRYPOINT>0x00001080</ADDRESSOFENTRYPOINT>
+        <BASEOFCODE>0x00001000</BASEOFCODE>
+        <BASEOFDATA>0x0007a000</BASEOFDATA>
+        <ADDRESSOFENTRYPOINTRAW>0x00000480</ADDRESSOFENTRYPOINTRAW>
+        <CHECKSUM>0x00095a78</CHECKSUM>
+        <IMAGEBASE>0x00400000</IMAGEBASE>
+        <LOADERFLAGS>0x00000000</LOADERFLAGS>
+        <MAGIC>0x010b</MAGIC>
+        <MAJORIMAGEVERSION>0x00000000</MAJORIMAGEVERSION>
+        <MAJORLINKERVERSION>0x02</MAJORLINKERVERSION>
+        <MAJOROPERATINGSYSTEMVERSION>0x0004</MAJOROPERATINGSYSTEMVERSION>
+        <MAJORSUBSYSTEMVERSION>0x0005</MAJORSUBSYSTEMVERSION>
+        <MINORIMAGEVERSION>0x0000</MINORIMAGEVERSION>
+        <MINORLINKERVERSION>0x19</MINORLINKERVERSION>
+        <MINOROPERATINGSYSTEMVERSION>0x0000</MINOROPERATINGSYSTEMVERSION>
+        <MINORSUBSYSTEMVERSION>0x0000</MINORSUBSYSTEMVERSION>
+        <NUMBEROFRVAANDSIZES>0x0010</NUMBEROFRVAANDSIZES>
+        <RESERVED1>0x00000000</RESERVED1>
+        <SECTIONALIGNMENT>0x00001000</SECTIONALIGNMENT>
+        <SIZEOFCODE>0x00078a00</SIZEOFCODE>
+        <SIZEOFHEADERS>0x00000400</SIZEOFHEADERS>
+        <SIZEOFHEAPCOMMIT>0x00001000</SIZEOFHEAPCOMMIT>
+        <SIZEOFHEAPRESERVE>0x00100000</SIZEOFHEAPRESERVE>
+        <SIZEOFIMAGE>0x00091000</SIZEOFIMAGE>
+        <SIZEOFINITIALIZEDDATA>0x0000c000</SIZEOFINITIALIZEDDATA>
+        <SIZEOFSTACKCOMMIT>0x00004000</SIZEOFSTACKCOMMIT>
+        <SIZEOFSTACKRESERVE>0x00100000</SIZEOFSTACKRESERVE>
+        <SIZEOFUNINITIALIZEDDATA>0x00000000</SIZEOFUNINITIALIZEDDATA>
+        <SUBSYSTEM>0x0002</SUBSYSTEM>
+        <DATA_DIRECTORY>
+          <IMAGE_DIRECTORY_ENTRY_IMPORT>
+            <SIZE>0x0000258a</SIZE>
+            <VIRTUALADDRESS>0x0007f000</VIRTUALADDRESS>
+          </IMAGE_DIRECTORY_ENTRY_IMPORT>
+          <IMAGE_DIRECTORY_ENTRY_RESOURCE>
+            <SIZE>0x0000c0a6</SIZE>
+            <VIRTUALADDRESS>0x00084000</VIRTUALADDRESS>
+          </IMAGE_DIRECTORY_ENTRY_RESOURCE>
+        </DATA_DIRECTORY>
+      </OPTIONAL_HEADER>
+      <DIRECTORY_ENTRY_IMPORT>
+        <DLL>
+          <DLLNAME>advapi32.dll</DLLNAME>
+          <APINAME>ImpersonateNamedPipeClient</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>USER32.DLL</DLLNAME>
+          <APINAME>RegisterClassA</APINAME>
+          <APINAME>OemKeyScan</APINAME>
+          <APINAME>DestroyCaret</APINAME>
+          <APINAME>MenuWindowProcW</APINAME>
+          <APINAME>GetWindowTextW</APINAME>
+          <APINAME>GetIconInfo</APINAME>
+          <APINAME>ActivateKeyboardLayout</APINAME>
+          <APINAME>GetUpdateRgn</APINAME>
+          <APINAME>CloseDesktop</APINAME>
+          <APINAME>RegisterClassExW</APINAME>
+          <APINAME>BringWindowToTop</APINAME>
+          <APINAME>GetClipboardFormatNameW</APINAME>
+          <APINAME>MessageBoxExA</APINAME>
+          <APINAME>SetActiveWindow</APINAME>
+          <APINAME>DialogBoxIndirectParamA</APINAME>
+          <APINAME>CallWindowProcA</APINAME>
+          <APINAME>IsCharAlphaW</APINAME>
+          <APINAME>RegisterWindowMessageA</APINAME>
+          <APINAME>EndMenu</APINAME>
+          <APINAME>BroadcastSystemMessageExA</APINAME>
+          <APINAME>GetPropA</APINAME>
+          <APINAME>OpenDesktopA</APINAME>
+          <APINAME>CharLowerBuffA</APINAME>
+          <APINAME>CallWindowProcW</APINAME>
+          <APINAME>SetCapture</APINAME>
+          <APINAME>RegisterClipboardFormatW</APINAME>
+          <APINAME>GetKeyboardLayout</APINAME>
+          <APINAME>ChangeDisplaySettingsW</APINAME>
+          <APINAME>RegisterClassExA</APINAME>
+          <APINAME>GetWindowRect</APINAME>
+          <APINAME>DrawIcon</APINAME>
+          <APINAME>CascadeWindows</APINAME>
+          <APINAME>CheckMenuRadioItem</APINAME>
+          <APINAME>TileChildWindows</APINAME>
+          <APINAME>DefFrameProcW</APINAME>
+          <APINAME>GetCaretPos</APINAME>
+          <APINAME>IsCharAlphaNumericW</APINAME>
+          <APINAME>SetWindowsHookExA</APINAME>
+          <APINAME>OpenDesktopW</APINAME>
+          <APINAME>EnumPropsExW</APINAME>
+          <APINAME>GetWindowLongW</APINAME>
+          <APINAME>DefDlgProcW</APINAME>
+          <APINAME>WinHelpW</APINAME>
+          <APINAME>SetWindowContextHelpId</APINAME>
+          <APINAME>EnableWindow</APINAME>
+          <APINAME>SetSystemCursor</APINAME>
+          <APINAME>UnlockWindowStation</APINAME>
+          <APINAME>LoadCursorA</APINAME>
+          <APINAME>SetForegroundWindow</APINAME>
+          <APINAME>GetMessagePos</APINAME>
+          <APINAME>FindWindowW</APINAME>
+          <APINAME>FrameRect</APINAME>
+          <APINAME>DrawFrameControl</APINAME>
+          <APINAME>GetMenuStringA</APINAME>
+          <APINAME>DlgDirListA</APINAME>
+          <APINAME>GetUserObjectInformationA</APINAME>
+          <APINAME>GetInputState</APINAME>
+          <APINAME>SendMessageCallbackA</APINAME>
+          <APINAME>GetClassInfoW</APINAME>
+          <APINAME>LoadIconW</APINAME>
+          <APINAME>FindWindowExW</APINAME>
+          <APINAME>GetRawInputDeviceInfoA</APINAME>
+          <APINAME>DialogBoxParamW</APINAME>
+          <APINAME>LoadMenuIndirectA</APINAME>
+          <APINAME>GetKeyboardState</APINAME>
+          <APINAME>EmptyClipboard</APINAME>
+          <APINAME>CopyAcceleratorTableW</APINAME>
+          <APINAME>GetDCEx</APINAME>
+          <APINAME>AnyPopup</APINAME>
+          <APINAME>CreateMDIWindowW</APINAME>
+          <APINAME>RealGetWindowClassA</APINAME>
+          <APINAME>GetTopWindow</APINAME>
+          <APINAME>SetDlgItemTextA</APINAME>
+          <APINAME>GetMonitorInfoA</APINAME>
+          <APINAME>WaitForInputIdle</APINAME>
+          <APINAME>DestroyAcceleratorTable</APINAME>
+          <APINAME>MessageBoxIndirectA</APINAME>
+          <APINAME>GetProcessWindowStation</APINAME>
+          <APINAME>OffsetRect</APINAME>
+          <APINAME>PeekMessageA</APINAME>
+          <APINAME>ModifyMenuW</APINAME>
+          <APINAME>SetDlgItemTextW</APINAME>
+          <APINAME>MapVirtualKeyExW</APINAME>
+          <APINAME>GetMenuInfo</APINAME>
+          <APINAME>SetWindowPlacement</APINAME>
+          <APINAME>GetCapture</APINAME>
+          <APINAME>PrintWindow</APINAME>
+          <APINAME>CallMsgFilterW</APINAME>
+          <APINAME>WindowFromDC</APINAME>
+          <APINAME>GetLastInputInfo</APINAME>
+          <APINAME>CloseWindow</APINAME>
+          <APINAME>MessageBoxA</APINAME>
+          <APINAME>DrawTextW</APINAME>
+          <APINAME>TranslateAcceleratorW</APINAME>
+          <APINAME>CheckMenuItem</APINAME>
+          <APINAME>BlockInput</APINAME>
+          <APINAME>LoadKeyboardLayoutW</APINAME>
+          <APINAME>IsZoomed</APINAME>
+          <APINAME>EnumThreadWindows</APINAME>
+          <APINAME>GrayStringW</APINAME>
+          <APINAME>CloseWindowStation</APINAME>
+          <APINAME>BroadcastSystemMessageA</APINAME>
+          <APINAME>IsWindowUnicode</APINAME>
+          <APINAME>ChildWindowFromPointEx</APINAME>
+          <APINAME>AlignRects</APINAME>
+          <APINAME>IsCharLowerA</APINAME>
+          <APINAME>GetCursorPos</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>KERNEL32.DLL</DLLNAME>
+          <APINAME>MoveFileExW</APINAME>
+          <APINAME>VerifyVersionInfoA</APINAME>
+          <APINAME>ConsoleMenuControl</APINAME>
+          <APINAME>GetEnvironmentVariableW</APINAME>
+          <APINAME>SetHandleInformation</APINAME>
+          <APINAME>GetStartupInfoW</APINAME>
+          <APINAME>TransmitCommChar</APINAME>
+          <APINAME>GetThreadPriority</APINAME>
+          <APINAME>CopyFileExA</APINAME>
+          <APINAME>ReadConsoleOutputCharacterA</APINAME>
+          <APINAME>GetOverlappedResult</APINAME>
+          <APINAME>RegisterWowExec</APINAME>
+          <APINAME>EnumCalendarInfoA</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>SHLWAPI.DLL</DLLNAME>
+          <APINAME>StrChrNW</APINAME>
+          <APINAME>SHRegOpenUSKeyA</APINAME>
+          <APINAME>PathParseIconLocationW</APINAME>
+          <APINAME>StrRStrIA</APINAME>
+          <APINAME>StrFormatByteSize64A</APINAME>
+          <APINAME>SHReleaseThreadRef</APINAME>
+          <APINAME>SHEnumKeyExW</APINAME>
+          <APINAME>HashData</APINAME>
+          <APINAME>StrCatChainW</APINAME>
+          <APINAME>PathIsURLW</APINAME>
+          <APINAME>AssocQueryStringA</APINAME>
+          <APINAME>AssocQueryStringByKeyW</APINAME>
+          <APINAME>PathFindNextComponentA</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>comdlg32.dll</DLLNAME>
+          <APINAME>GetFileTitleW</APINAME>
+          <APINAME>GetFileTitleA</APINAME>
+          <APINAME>PrintDlgW</APINAME>
+          <APINAME>WantArrows</APINAME>
+          <APINAME>dwLBSubclass</APINAME>
+          <APINAME>ChooseColorA</APINAME>
+          <APINAME>GetSaveFileNameW</APINAME>
+          <APINAME>WantArrows</APINAME>
+          <APINAME>PrintDlgW</APINAME>
+          <APINAME>PageSetupDlgA</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>OLEAUT32.DLL</DLLNAME>
+          <APINAME>VarI4FromR4</APINAME>
+          <APINAME>SafeArrayCreateEx</APINAME>
+          <APINAME>VarI8FromBool</APINAME>
+          <APINAME>VarI1FromR4</APINAME>
+          <APINAME>VarDecFromUI8</APINAME>
+          <APINAME>VarI2FromUI1</APINAME>
+          <APINAME>VarI4FromR8</APINAME>
+          <APINAME>VarUI4FromI2</APINAME>
+          <APINAME>VarCyFromI4</APINAME>
+          <APINAME>SafeArrayLock</APINAME>
+          <APINAME>VarUI2FromUI8</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>SHELL32.DLL</DLLNAME>
+          <APINAME>StrRStrIW</APINAME>
+          <APINAME>ExtractIconExA</APINAME>
+          <APINAME>SHEmptyRecycleBinW</APINAME>
+          <APINAME>StrChrIA</APINAME>
+          <APINAME>SHEnumerateUnreadMailAccountsW</APINAME>
+          <APINAME>StrCmpNIA</APINAME>
+          <APINAME>StrChrIW</APINAME>
+          <APINAME>SHGetIconOverlayIndexW</APINAME>
+          <APINAME>SHCreateDirectoryExA</APINAME>
+          <APINAME>StrChrA</APINAME>
+          <APINAME>StrCmpNW</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>WINSPOOL.DRV</DLLNAME>
+          <APINAME>FindClosePrinterChangeNotification</APINAME>
+          <APINAME>DeletePrinterDataExW</APINAME>
+          <APINAME>EnumFormsW</APINAME>
+          <APINAME>AddPrinterConnectionA</APINAME>
+          <APINAME>GetPrinterDataExW</APINAME>
+          <APINAME>GetDefaultPrinterW</APINAME>
+          <APINAME>ScheduleJob</APINAME>
+          <APINAME>ClosePrinter</APINAME>
+          <APINAME>PerfClose</APINAME>
+          <APINAME>DeleteMonitorW</APINAME>
+          <APINAME>DeletePrinterDriverW</APINAME>
+          <APINAME>SpoolerPrinterEvent</APINAME>
+          <APINAME>AddPortA</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>comctl32.dll</DLLNAME>
+          <APINAME>MakeDragList</APINAME>
+          <APINAME>FlatSB_SetScrollProp</APINAME>
+          <APINAME>FlatSB_SetScrollInfo</APINAME>
+          <APINAME>ImageList_GetIcon</APINAME>
+          <APINAME>ImageList_LoadImageA</APINAME>
+          <APINAME>ImageList_SetBkColor</APINAME>
+          <APINAME>ImageList_AddMasked</APINAME>
+          <APINAME>FlatSB_SetScrollProp</APINAME>
+          <APINAME>DrawInsert</APINAME>
+          <APINAME>ImageList_Draw</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>kernel32.dll</DLLNAME>
+          <APINAME>CreateNamedPipeW</APINAME>
+          <APINAME>SetCalendarInfoA</APINAME>
+          <APINAME>GetFileInformationByHandle</APINAME>
+          <APINAME>AddConsoleAliasA</APINAME>
+          <APINAME>GetConsoleDisplayMode</APINAME>
+          <APINAME>CompareStringA</APINAME>
+          <APINAME>SuspendThread</APINAME>
+          <APINAME>HeapDestroy</APINAME>
+          <APINAME>InterlockedDecrement</APINAME>
+          <APINAME>CreateTapePartition</APINAME>
+          <APINAME>VerifyVersionInfoW</APINAME>
+          <APINAME>SetThreadPriorityBoost</APINAME>
+          <APINAME>LZOpenFileW</APINAME>
+          <APINAME>GetLocalTime</APINAME>
+          <APINAME>EnumTimeFormatsW</APINAME>
+          <APINAME>EnumCalendarInfoA</APINAME>
+          <APINAME>ReadFileEx</APINAME>
+          <APINAME>GetConsoleInputExeNameA</APINAME>
+          <APINAME>GetStartupInfoW</APINAME>
+          <APINAME>GetProcessTimes</APINAME>
+          <APINAME>DelayLoadFailureHook</APINAME>
+          <APINAME>MoveFileWithProgressA</APINAME>
+          <APINAME>GetPrivateProfileSectionNamesA</APINAME>
+          <APINAME>CreateJobSet</APINAME>
+          <APINAME>BuildCommDCBAndTimeoutsW</APINAME>
+          <APINAME>GetDevicePowerState</APINAME>
+          <APINAME>LZCopy</APINAME>
+          <APINAME>SetCurrentDirectoryW</APINAME>
+          <APINAME>FindFirstFileW</APINAME>
+          <APINAME>LoadLibraryW</APINAME>
+          <APINAME>GetCurrentProcessId</APINAME>
+        </DLL>
+        <DLL>
+          <DLLNAME>user32.dll</DLLNAME>
+          <APINAME>GetWindowTextLengthA</APINAME>
+          <APINAME>BringWindowToTop</APINAME>
+          <APINAME>SetWindowWord</APINAME>
+          <APINAME>LoadMenuIndirectA</APINAME>
+          <APINAME>CloseWindow</APINAME>
+          <APINAME>GetSubMenu</APINAME>
+          <APINAME>ReleaseCapture</APINAME>
+          <APINAME>AttachThreadInput</APINAME>
+          <APINAME>DefWindowProcW</APINAME>
+          <APINAME>CreateDialogParamA</APINAME>
+          <APINAME>InvalidateRgn</APINAME>
+          <APINAME>GetUserObjectInformationW</APINAME>
+          <APINAME>CheckDlgButton</APINAME>
+          <APINAME>DialogBoxIndirectParamW</APINAME>
+          <APINAME>RedrawWindow</APINAME>
+          <APINAME>GetParent</APINAME>
+          <APINAME>GetClassNameW</APINAME>
+          <APINAME>CheckMenuRadioItem</APINAME>
+          <APINAME>DefFrameProcA</APINAME>
+          <APINAME>PostThreadMessageA</APINAME>
+          <APINAME>ChangeMenuW</APINAME>
+          <APINAME>GetForegroundWindow</APINAME>
+          <APINAME>GetNextDlgTabItem</APINAME>
+          <APINAME>SetProcessWindowStation</APINAME>
+          <APINAME>MessageBoxA</APINAME>
+          <APINAME>ScrollWindowEx</APINAME>
+          <APINAME>CharPrevExA</APINAME>
+          <APINAME>BlockInput</APINAME>
+          <APINAME>DestroyAcceleratorTable</APINAME>
+          <APINAME>UnregisterClassW</APINAME>
+          <APINAME>CopyAcceleratorTableA</APINAME>
+          <APINAME>GetClassInfoExW</APINAME>
+          <APINAME>ShowScrollBar</APINAME>
+          <APINAME>GetWindowModuleFileNameW</APINAME>
+          <APINAME>TrackPopupMenu</APINAME>
+          <APINAME>EmptyClipboard</APINAME>
+          <APINAME>RegisterDeviceNotificationA</APINAME>
+          <APINAME>SetThreadDesktop</APINAME>
+          <APINAME>GetAsyncKeyState</APINAME>
+          <APINAME>SetWindowsHookA</APINAME>
+          <APINAME>MapVirtualKeyExW</APINAME>
+          <APINAME>MessageBoxW</APINAME>
+          <APINAME>FlashWindowEx</APINAME>
+          <APINAME>GetUpdateRect</APINAME>
+          <APINAME>IsCharUpperW</APINAME>
+          <APINAME>GetUserObjectSecurity</APINAME>
+          <APINAME>GetWindowLongA</APINAME>
+          <APINAME>CheckMenuItem</APINAME>
+          <APINAME>FindWindowA</APINAME>
+          <APINAME>SetClipboardData</APINAME>
+          <APINAME>GetKeyboardState</APINAME>
+          <APINAME>IsGUIThread</APINAME>
+          <APINAME>PrintWindow</APINAME>
+          <APINAME>ModifyMenuA</APINAME>
+          <APINAME>EnableScrollBar</APINAME>
+          <APINAME>FindWindowExA</APINAME>
+          <APINAME>GetWindowThreadProcessId</APINAME>
+          <APINAME>UpdateLayeredWindow</APINAME>
+          <APINAME>MessageBoxExA</APINAME>
+          <APINAME>SetScrollPos</APINAME>
+          <APINAME>RegisterClassExA</APINAME>
+          <APINAME>ChildWindowFromPoint</APINAME>
+          <APINAME>OemToCharA</APINAME>
+          <APINAME>MessageBoxTimeoutA</APINAME>
+          <APINAME>DestroyWindow</APINAME>
+          <APINAME>DeleteMenu</APINAME>
+          <APINAME>CharToOemBuffA</APINAME>
+          <APINAME>GetWindowWord</APINAME>
+          <APINAME>RealChildWindowFromPoint</APINAME>
+          <APINAME>AppendMenuA</APINAME>
+          <APINAME>SystemParametersInfoW</APINAME>
+          <APINAME>ToAsciiEx</APINAME>
+          <APINAME>CallWindowProcW</APINAME>
+          <APINAME>GetGuiResources</APINAME>
+          <APINAME>IsMenu</APINAME>
+          <APINAME>IsRectEmpty</APINAME>
+          <APINAME>GetKeyboardLayout</APINAME>
+          <APINAME>RegisterClassW</APINAME>
+          <APINAME>CharPrevA</APINAME>
+          <APINAME>GetMouseMovePointsEx</APINAME>
+          <APINAME>SetWindowTextW</APINAME>
+          <APINAME>RegisterWindowMessageW</APINAME>
+          <APINAME>SetUserObjectInformationA</APINAME>
+          <APINAME>SetPropA</APINAME>
+          <APINAME>SetWindowRgn</APINAME>
+          <APINAME>SubtractRect</APINAME>
+          <APINAME>ChangeDisplaySettingsExW</APINAME>
+          <APINAME>KillTimer</APINAME>
+          <APINAME>GetComboBoxInfo</APINAME>
+          <APINAME>MenuItemFromPoint</APINAME>
+          <APINAME>GetMenu</APINAME>
+          <APINAME>PostMessageA</APINAME>
+          <APINAME>LoadImageW</APINAME>
+          <APINAME>GetUserObjectInformationA</APINAME>
+          <APINAME>InsertMenuItemA</APINAME>
+          <APINAME>SetDebugErrorLevel</APINAME>
+          <APINAME>DrawMenuBar</APINAME>
+          <APINAME>ChangeDisplaySettingsW</APINAME>
+          <APINAME>DrawCaptionTempW</APINAME>
+          <APINAME>DestroyMenu</APINAME>
+          <APINAME>OpenClipboard</APINAME>
+          <APINAME>SetParent</APINAME>
+          <APINAME>TranslateMessageEx</APINAME>
+          <APINAME>GetClipboardOwner</APINAME>
+          <APINAME>UnlockWindowStation</APINAME>
+          <APINAME>GetUpdateRgn</APINAME>
+          <APINAME>PeekMessageA</APINAME>
+          <APINAME>CascadeWindows</APINAME>
+          <APINAME>GetDlgItemTextA</APINAME>
+          <APINAME>GetLastActivePopup</APINAME>
+          <APINAME>SendNotifyMessageW</APINAME>
+          <APINAME>GetProgmanWindow</APINAME>
+          <APINAME>GetWindowRect</APINAME>
+          <APINAME>CharUpperW</APINAME>
+          <APINAME>GetKeyState</APINAME>
+          <APINAME>GetScrollBarInfo</APINAME>
+          <APINAME>LoadCursorA</APINAME>
+          <APINAME>DialogBoxIndirectParamA</APINAME>
+          <APINAME>AllowForegroundActivation</APINAME>
+          <APINAME>TrackMouseEvent</APINAME>
+          <APINAME>ToAscii</APINAME>
+          <APINAME>TabbedTextOutA</APINAME>
+          <APINAME>SetFocus</APINAME>
+          <APINAME>InflateRect</APINAME>
+          <APINAME>CreateDialogIndirectParamW</APINAME>
+          <APINAME>SetWindowPlacement</APINAME>
+          <APINAME>BroadcastSystemMessageW</APINAME>
+          <APINAME>SetDlgItemTextA</APINAME>
+          <APINAME>GetMessageW</APINAME>
+          <APINAME>CallMsgFilterW</APINAME>
+          <APINAME>GetMenuItemInfoA</APINAME>
+          <APINAME>SetMenuContextHelpId</APINAME>
+          <APINAME>IsCharLowerA</APINAME>
+          <APINAME>IsCharAlphaA</APINAME>
+          <APINAME>DrawIconEx</APINAME>
+          <APINAME>SetSysColors</APINAME>
+          <APINAME>LoadMenuW</APINAME>
+          <APINAME>SetSystemCursor</APINAME>
+          <APINAME>PostQuitMessage</APINAME>
+          <APINAME>GetSystemMetrics</APINAME>
+          <APINAME>GetMonitorInfoW</APINAME>
+          <APINAME>SwitchDesktop</APINAME>
+          <APINAME>AlignRects</APINAME>
+          <APINAME>CheckRadioButton</APINAME>
+          <APINAME>GetClipboardFormatNameA</APINAME>
+          <APINAME>CreateMenu</APINAME>
+          <APINAME>GetMenuDefaultItem</APINAME>
+          <APINAME>DispatchMessageA</APINAME>
+          <APINAME>EnableWindow</APINAME>
+          <APINAME>GetClassLongA</APINAME>
+          <APINAME>ChangeMenuA</APINAME>
+          <APINAME>DrawStateW</APINAME>
+          <APINAME>IsDialogMessageW</APINAME>
+          <APINAME>RegisterWindowMessageA</APINAME>
+          <APINAME>IsCharAlphaW</APINAME>
+          <APINAME>LoadStringW</APINAME>
+          <APINAME>EnumThreadWindows</APINAME>
+          <APINAME>SetCursorContents</APINAME>
+          <APINAME>DispatchMessageW</APINAME>
+          <APINAME>GetKeyNameTextW</APINAME>
+          <APINAME>GetClassInfoExA</APINAME>
+          <APINAME>GetWindowContextHelpId</APINAME>
+          <APINAME>AdjustWindowRect</APINAME>
+          <APINAME>IsCharLowerW</APINAME>
+          <APINAME>DlgDirSelectExW</APINAME>
+          <APINAME>SetDeskWallpaper</APINAME>
+          <APINAME>CreateCaret</APINAME>
+          <APINAME>SystemParametersInfoA</APINAME>
+          <APINAME>SetLayeredWindowAttributes</APINAME>
+          <APINAME>CloseWindowStation</APINAME>
+          <APINAME>MonitorFromRect</APINAME>
+          <APINAME>GetSysColorBrush</APINAME>
+          <APINAME>DestroyIcon</APINAME>
+          <APINAME>IsCharAlphaNumericW</APINAME>
+          <APINAME>GetMenuItemCount</APINAME>
+        </DLL>
+      </DIRECTORY_ENTRY_IMPORT>
+      <SECTIONLIST>
+        <SECTION>
+          <NAME>CODE</NAME>
+          <VIRTUALADDRESS>0x00001000</VIRTUALADDRESS>
+          <MISC_VIRTUALSIZE>0x000789b4</MISC_VIRTUALSIZE>
+          <POINTERTORAWDATA>0x00000400</POINTERTORAWDATA>
+          <SIZEOFRAWDATA>0x00078a00</SIZEOFRAWDATA>
+        </SECTION>
+        <SECTION>
+          <NAME>DATA</NAME>
+          <VIRTUALADDRESS>0x0007a000</VIRTUALADDRESS>
+          <MISC_VIRTUALSIZE>0x00003070</MISC_VIRTUALSIZE>
+          <POINTERTORAWDATA>0x00078e00</POINTERTORAWDATA>
+          <SIZEOFRAWDATA>0x00003200</SIZEOFRAWDATA>
+        </SECTION>
+        <SECTION>
+          <NAME>BSS</NAME>
+          <VIRTUALADDRESS>0x0007e000</VIRTUALADDRESS>
+          <MISC_VIRTUALSIZE>0x00000468</MISC_VIRTUALSIZE>
+          <POINTERTORAWDATA>0x0007c000</POINTERTORAWDATA>
+          <SIZEOFRAWDATA>0x00000000</SIZEOFRAWDATA>
+        </SECTION>
+        <SECTION>
+          <NAME>.idata</NAME>
+          <VIRTUALADDRESS>0x0007f000</VIRTUALADDRESS>
+          <MISC_VIRTUALSIZE>0x0000258a</MISC_VIRTUALSIZE>
+          <POINTERTORAWDATA>0x0007c000</POINTERTORAWDATA>
+          <SIZEOFRAWDATA>0x00002600</SIZEOFRAWDATA>
+        </SECTION>
+        <SECTION>
+          <NAME>.reloc</NAME>
+          <VIRTUALADDRESS>0x00082000</VIRTUALADDRESS>
+          <MISC_VIRTUALSIZE>0x00001490</MISC_VIRTUALSIZE>
+          <POINTERTORAWDATA>0x0007e600</POINTERTORAWDATA>
+          <SIZEOFRAWDATA>0x00001600</SIZEOFRAWDATA>
+        </SECTION>
+        <SECTION>
+          <NAME>.rsrc</NAME>
+          <VIRTUALADDRESS>0x00084000</VIRTUALADDRESS>
+          <MISC_VIRTUALSIZE>0x0000c0a6</MISC_VIRTUALSIZE>
+          <POINTERTORAWDATA>0x0007fc00</POINTERTORAWDATA>
+          <SIZEOFRAWDATA>0x00005200</SIZEOFRAWDATA>
+        </SECTION>
+      </SECTIONLIST>
+    </PESTRUCT>
+    <BATCHID>20140904_010408_391588_Force</BATCHID>
+    <SEQUENCEID>7</SEQUENCEID>
+  </PROC>
+<PREP time="2014-09-04 01:04:23 +0800" version="2.1.49">
+    <HASH>
+      <MD5>A830C01D0159AFAF31DE997EEEE3FB1C</MD5>
+      <CRC32>F39FE98F</CRC32>
+      <SHA1>7BBC0F1821F69CD4326C53CE158B8EB2CA22C6DB</SHA1>
+    </HASH>
+    <FILEINFO>
+      <FILESIZE>548728</FILESIZE>
+      <FILENAME>A830C01D0159AFAF31DE997EEEE3FB1C.F39FE98F</FILENAME>
+      <FILEEXT>F39FE98F</FILEEXT>
+      <CREATETIME>2014-09-04 01:04:08 +0800</CREATETIME>
+      <MODIFYTIME>2014-09-04 01:04:08 +0800</MODIFYTIME>
+      <INCOMETIME>2014-09-04 01:04:08 +0800</INCOMETIME>
+      <PACKAGENAME>A830C01D0159AFAF31DE997EEEE3FB1C.F39FE98F</PACKAGENAME>
+      <PACKAGETIME>2014-09-04 01:04:08 +0800</PACKAGETIME>
+      <BATCHID>20140904_010408_391588_Force</BATCHID>
+      <SEQUENCEID>7</SEQUENCEID>
+    </FILEINFO>
+    <SOURCE>
+      <ID>8</ID>
+      <NAME>Force</NAME>
+      <TREATMENT>PROC|SCAN</TREATMENT>
+    </SOURCE>
+  </PREP>
+</ROOT>
